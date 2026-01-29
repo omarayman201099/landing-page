@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Landing Page</title>
+  <title>Landing Page - DevOps & Kubernetes</title>
 
   <!-- Bootstrap -->
   <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -19,8 +19,9 @@
 
 <body>
 
+  <!-- ==================== HEADER ==================== -->
   <header>
-    <nav class="container d-flex">
+    <nav class="container">
       <!-- Logo -->
       <a href="#" class="logo gradient-text" aria-label="الصفحة الرئيسية">SA</a>
 
@@ -34,10 +35,10 @@
       <!-- Navigation Links -->
       <ul class="nav-links">
         <li><a href="#" class="nav-link active">التقديم</a></li>
-        <li><a href="#" class="nav-link">ماذا ستحصل</a></li>
+        <li><a href="#who" class="nav-link">الفئة المستهدفة</a></li>
+        <li><a href="#learn" class="nav-link">محتوى الكورس</a></li>
         <li><a href="#" class="nav-link">كيف يعمل</a></li>
-        <li><a href="#" class="nav-link">محتوى الكورس</a></li>
-        <li><a href="#" class="nav-link">الفئة المستهدفة</a></li>
+        <li><a href="#" class="nav-link">ماذا ستحصل</a></li>
         <li><a href="#" class="nav-link">الرئيسية</a></li>
       </ul>
 
@@ -75,12 +76,12 @@
     </nav>
   </header>
 
-  <!-- Hero Section -->
+  <!-- ==================== HERO SECTION ==================== -->
   <section class="hero">
     <!-- Background Decorations -->
     <div class="bg-decorations">
-      <img src="assets/images/top.png" alt="" class="top-img">
-      <img src="assets/images/botton.png" alt="" class="botton-img">
+      <img src="assets/images/top.png" alt="decoration" class="top-img">
+      <img src="assets/images/botton.png" alt="decoration" class="botton-img">
     </div>
 
     <!-- Content -->
@@ -96,12 +97,8 @@
         </div>
 
         <!-- Main Title -->
-        <h1 class="hero-title">
-          DevOps & Kubernetes:
-        </h1>
-        <p class="hero-subtitle">
-          برنامج تطوير مهني لمدة 12 أسبوع
-        </p>
+        <h1 class="hero-title">DevOps & Kubernetes:</h1>
+        <p class="hero-subtitle">برنامج تطوير مهني لمدة 12 أسبوع</p>
 
         <!-- Description -->
         <p class="hero-description">
@@ -133,117 +130,326 @@
     </div>
   </section>
 
+  <!-- ==================== WHO SECTION ==================== -->
+  <section id="who" class="who-section">
+    <div class="container">
+      <!-- Title Section -->
+      <div class="title-content">
+        <span class="badge-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+          </svg>
+          لمن هذا المسار؟
+        </span>
+        <div class="who-content">
+          <h1><span class="blue">لمن</span> هذا البرنامج؟</h1>
+          <h4>هذا البرنامج مخصص للمهندسين أصحاب الخبرة الذين يريدون انتقالًا حقيقيًا إلى مجال DevOps و Kubernetes وليس للمبتدئين</h4>
+        </div>
+      </div>
 
-  <!-- who section -->
-<div class="container">
-    <div class="who-section">
-        <!-- Title Section -->
-        <div class="title-content">
-            <span class="badge-2">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-                </svg>
-                لمن هذا المسار؟
-            </span>
-            <div class="who-content">
-                <h1>مصمم خصيصاً لـ</h1>
-                <h4>المطورين ومهندسي DevOps الطموحين</h4>
+      <div class="row g-4">
+        <!-- Left Column -->
+        <div class="col-12 col-lg-6">
+          <div class="info-card mb-4">
+            <div class="card-content">
+              <div class="card-header-section">
+                <div class="card-icon-wrapper">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M10.04 4.305c2.195 -.667 4.615 -.224 6.36 1.176c1.386 1.108 2.188 2.686 2.252 4.34l.003 .212l.091 .003c2.3 .107 4.143 1.961 4.25 4.27l.004 .211c0 2.407 -1.885 4.372 -4.255 4.482l-.21 .005h-11.878l-.222 -.008c-2.94 -.11 -5.317 -2.399 -5.43 -5.263l-.005 -.216c0 -2.747 2.08 -5.01 4.784 -5.417l.114 -.016l.07 -.181c.663 -1.62 2.056 -2.906 3.829 -3.518l.244 -.08z" />
+                  </svg>
+                </div>
+                <h5 class="card-title">للمطورين ومهندسي DevOps Cloud</h5>
+              </div>
+              <p class="card-description">
+                مسار واضح لمدة 12 أسبوعًا يأخذك من البرمجة فقط إلى العمل الحقيقي في DevOps، مع تركيز عملي على الحاويات، خطوط CI/CD، Kubernetes، والبنية التحتية كـكود (Infrastructure as Code).
+              </p>
             </div>
+          </div>
+
+          <div class="info-card mb-4">
+            <div class="card-content">
+              <div class="card-header-section">
+                <div class="card-icon-wrapper">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M10.04 4.305c2.195 -.667 4.615 -.224 6.36 1.176c1.386 1.108 2.188 2.686 2.252 4.34l.003 .212l.091 .003c2.3 .107 4.143 1.961 4.25 4.27l.004 .211c0 2.407 -1.885 4.372 -4.255 4.482l-.21 .005h-11.878l-.222 -.008c-2.94 -.11 -5.317 -2.399 -5.43 -5.263l-.005 -.216c0 -2.747 2.08 -5.01 4.784 -5.417l.114 -.016l.07 -.181c.663 -1.62 2.056 -2.906 3.829 -3.518l.244 -.80z" />
+                  </svg>
+                </div>
+                <h5 class="card-title">محترفي البنية التحتية</h5>
+              </div>
+              <p class="card-description">
+                للمهندسين الذين يريدون الانتقال من الإدارة التقليدية للخوادم إلى عالم الأتمتة الكاملة والبنية التحتية كـكود، مع التركيز على Terraform وAnsible والممارسات الحديثة.
+              </p>
+            </div>
+          </div>
+
+          <div class="info-card mb-4 mb-lg-0">
+            <div class="card-content">
+              <div class="card-header-section">
+                <div class="card-icon-wrapper">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M10.04 4.305c2.195 -.667 4.615 -.224 6.36 1.176c1.386 1.108 2.188 2.686 2.252 4.34l.003 .212l.091 .003c2.3 .107 4.143 1.961 4.25 4.27l.004 .211c0 2.407 -1.885 4.372 -4.255 4.482l-.21 .005h-11.878l-.222 -.008c-2.94 -.11 -5.317 -2.399 -5.43 -5.263l-.005 -.216c0 -2.747 2.08 -5.01 4.784 -5.417l.114 -.016l.07 -.181c.663 -1.62 2.056 -2.906 3.829 -3.518l.244 -.80z" />
+                  </svg>
+                </div>
+                <h5 class="card-title">قادة الفرق التقنية</h5>
+              </div>
+              <p class="card-description">
+                للمديرين والقادة الذين يحتاجون فهم عميق لعمليات DevOps لقيادة فرقهم بفعالية، وتحسين سير العمل، واتخاذ قرارات تقنية مدروسة في بيئة الإنتاج.
+              </p>
+            </div>
+          </div>
         </div>
 
-        <div class="row g-4">
-            <!-- Left Column - الكاردات الـ 3 تحت بعض -->
-            <div class="col-12 col-lg-6">
-                <div class="info-card mb-4" lang="ar" dir="rtl">
-                    <div class="card-content">
-                        <div class="card-header-section">
-                            <div class="card-icon-wrapper">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                    <path d="M10.04 4.305c2.195 -.667 4.615 -.224 6.36 1.176c1.386 1.108 2.188 2.686 2.252 4.34l.003 .212l.091 .003c2.3 .107 4.143 1.961 4.25 4.27l.004 .211c0 2.407 -1.885 4.372 -4.255 4.482l-.21 .005h-11.878l-.222 -.008c-2.94 -.11 -5.317 -2.399 -5.43 -5.263l-.005 -.216c0 -2.747 2.08 -5.01 4.784 -5.417l.114 -.016l.07 -.181c.663 -1.62 2.056 -2.906 3.829 -3.518l.244 -.08z" />
-                                </svg>
-                            </div>
-                            <h5 class="card-title">للمطورين ومهندسي DevOps Cloud</h5>
-                        </div>
-                        <p class="card-description">
-                            مسار واضح لمدة 12 أسبوعًا يأخذك من البرمجة فقط إلى العمل الحقيقي في DevOps، مع تركيز عملي على الحاويات، خطوط CI/CD، Kubernetes، والبنية التحتية كـكود (Infrastructure as Code)، بدلاً من التنقل بين شروحات متفرقة دون تطبيق فعلي.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="info-card mb-4" lang="ar" dir="rtl">
-                    <div class="card-content">
-                        <div class="card-header-section">
-                            <div class="card-icon-wrapper">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                    <path d="M10.04 4.305c2.195 -.667 4.615 -.224 6.36 1.176c1.386 1.108 2.188 2.686 2.252 4.34l.003 .212l.091 .003c2.3 .107 4.143 1.961 4.25 4.27l.004 .211c0 2.407 -1.885 4.372 -4.255 4.482l-.21 .005h-11.878l-.222 -.008c-2.94 -.11 -5.317 -2.399 -5.43 -5.263l-.005 -.216c0 -2.747 2.08 -5.01 4.784 -5.417l.114 -.016l.07 -.181c.663 -1.62 2.056 -2.906 3.829 -3.518l.244 -.08z" />
-                                </svg>
-                            </div>
-                            <h5 class="card-title">محترفي البنية التحتية</h5>
-                        </div>
-                        <p class="card-description">
-                            للمهندسين الذين يريدون الانتقال من الإدارة التقليدية للخوادم إلى عالم الأتمتة الكاملة والبنية التحتية كـكود، مع التركيز على Terraform وAnsible والممارسات الحديثة.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="info-card" lang="ar" dir="rtl">
-                    <div class="card-content">
-                        <div class="card-header-section">
-                            <div class="card-icon-wrapper">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                    <path d="M10.04 4.305c2.195 -.667 4.615 -.224 6.36 1.176c1.386 1.108 2.188 2.686 2.252 4.34l.003 .212l.091 .003c2.3 .107 4.143 1.961 4.25 4.27l.004 .211c0 2.407 -1.885 4.372 -4.255 4.482l-.21 .005h-11.878l-.222 -.008c-2.94 -.11 -5.317 -2.399 -5.43 -5.263l-.005 -.216c0 -2.747 2.08 -5.01 4.784 -5.417l.114 -.016l.07 -.181c.663 -1.62 2.056 -2.906 3.829 -3.518l.244 -.80z" />
-                                </svg>
-                            </div>
-                            <h5 class="card-title">قادة الفرق التقنية</h5>
-                        </div>
-                        <p class="card-description">
-                            للمديرين والقادة الذين يحتاجون فهم عميق لعمليات DevOps لقيادة فرقهم بفعالية، وتحسين سير العمل، واتخاذ قرارات تقنية مدروسة في بيئة الإنتاج.
-                        </p>
-                    </div>
-                </div>
+        <!-- Right Column -->
+        <div class="col-12 col-lg-6">
+          <div class="featured-course-card">
+            <div class="course-badge-top">
+              <span class="question-badge">هل المنصة للمبتدئين فقط؟</span>
             </div>
-
-            <!-- Right Column - الكاردين الكبار جنب بعض -->
-            <div class="col-12 col-lg-6">
-                <div class="row g-4">
-                    <!-- First Large Card -->
-                    <div class="col-12">
-                        <div class="featured-course-card" lang="ar" dir="rtl">
-                            <div class="course-badge-top">
-                                <span class="question-badge">هل المنصة للمبتدئين فقط؟</span>
-                            </div>
-                            
-                            <h2 class="course-main-title">انتقل إلى مستوى DevOps الحقيقي</h2>
-                            
-                            <div class="course-image-wrapper">
-                                <div class="course-image-card">
-                                    <img src="./assets/images/b1882b626ee10e9c8028601cba10eb892c10c18b.jpg" class="course-image" alt="DevOps">
-                                    <span class="registration-badge">التسجيل بالتطور</span>
-                                    
-                                    <div class="course-info-card">
-                                        <div class="d-flex align-items-center gap-3">
-                                            <div class="course-icon-box">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
-                                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-                                                </svg>
-                                            </div>
-                                            <p class="mb-0 course-info-text">حول خبراتك كمطور<br>مهني قوي</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+            
+            <h2 class="course-main-title">انتقل إلى مستوى DevOps الحقيقي</h2>
+            
+            <div class="course-image-wrapper">
+              <div class="course-image-card">
+                <img src="./assets/images/b1882b626ee10e9c8028601cba10eb892c10c18b.jpg" class="course-image" alt="DevOps Professional">
+                <span class="registration-badge">التسجيل متاح</span>
+                
+                <div class="course-info-card">
+                  <div class="d-flex align-items-center gap-3">
+                    <div class="course-icon-box">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                      </svg>
                     </div>
-
-                  
+                    <div class="course-info-position">
+                      <p class="mb-0 course-info-text">حول خبراتك كمطور<br>إلى مهني قوي</p>
+                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
+  </section>
+
+
+
+
+  
+  <!-- ==================== LEARNING SECTION ==================== -->
+  <section id="learn" class="who-section" style="background: #f9fafb;">
+    <div class="container">
+      <!-- Title Section -->
+      <div class="title-content">
+        <span class="badge-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+          </svg>
+          محتوى البرنامج
+        </span>
+        <div class="who-content">
+          <h1><span class="blue">ماذا سنتعلم</span> خلال 12 أسبوع؟</h1>
+          <h4>خلال 3 شهور في مسار منظم: IaC ← Kubernetes ← CI/CD ← مشروع نهائي محترف</h4>
+        </div>
+      </div>
+
+      <!-- Cards -->
+      <div class="row g-4">
+        <!-- Card 1 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="custom-card">
+            <span class="card-number">01</span>
+            <h5>Docker</h5>
+            <span class="badge-card">
+              <span class="gradient-text">الأسبوع 2-1</span>
+            </span>
+
+            <div class="custom-card-content">
+              <div class="custom-item">
+                <span class="step-circle">1</span>
+                <p>تحويل تطبيق موجود إلى حاوية باستخدام Docker</p>
+              </div>
+
+              <div class="custom-item">
+                <span class="step-circle">2</span>
+                <p>استخدام Multi-stage builds و Registry و Tagging</p>
+              </div>
+
+              <div class="custom-item done">
+                <span class="step-circle">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12l5 5l10 -10" />
+                  </svg>
+                </span>
+                <p>خدمة جاهزة للإنتاج في حسابك على GitHub</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="custom-card">
+            <span class="card-number">02</span>
+            <h5>CI/CD</h5>
+            <span class="badge-card">
+              <span class="gradient-text">الأسبوع 4-3</span>
+            </span>
+
+            <div class="custom-card-content">
+              <div class="custom-item">
+                <span class="step-circle">1</span>
+                <p>بناء Pipeline باستخدام GitLab CI / Jenkins / GitHub Actions</p>
+              </div>
+
+              <div class="custom-item">
+                <span class="step-circle">2</span>
+                <p>الاختبارات التلقائية وبناء الصور والنشر للبيئة</p>
+              </div>
+
+              <div class="custom-item done">
+                <span class="step-circle">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12l5 5l10 -10" />
+                  </svg>
+                </span>
+                <p>مسار عمل فعّال من الالتزام إلى النشر</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="custom-card">
+            <span class="card-number">03</span>
+            <h5>Kubernetes</h5>
+            <span class="badge-card">
+              <span class="gradient-text">الأسبوع 8-5</span>
+            </span>
+
+            <div class="custom-card-content">
+              <div class="custom-item">
+                <span class="step-circle">1</span>
+                <p>نشر تطبيقاتك على Kubernetes cluster</p>
+              </div>
+
+              <div class="custom-item">
+                <span class="step-circle">2</span>
+                <p>إدارة Deployments, Services, ConfigMaps والمزيد</p>
+              </div>
+
+              <div class="custom-item done">
+                <span class="step-circle">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12l5 5l10 -10" />
+                  </svg>
+                </span>
+                <p>تطبيق production-ready على Kubernetes</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="custom-card">
+            <span class="card-number">04</span>
+            <h5>Terraform</h5>
+            <span class="badge-card">
+              <span class="gradient-text">الأسبوع 10-9</span>
+            </span>
+
+            <div class="custom-card-content">
+              <div class="custom-item">
+                <span class="step-circle">1</span>
+                <p>بناء البنية التحتية باستخدام Infrastructure as Code</p>
+              </div>
+
+              <div class="custom-item">
+                <span class="step-circle">2</span>
+                <p>إدارة الموارد السحابية بطريقة آلية ومنظمة</p>
+              </div>
+
+              <div class="custom-item done">
+                <span class="step-circle">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12l5 5l10 -10" />
+                  </svg>
+                </span>
+                <p>بنية تحتية كاملة مكتوبة كـ code</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="col-12 col-md-6 col-lg-4 ">
+          <div class="custom-card">
+            <span class="card-number">05</span>
+            <h5>Monitoring</h5>
+            <span class="badge-card">
+              <span class="gradient-text">الأسبوع 11</span>
+            </span>
+
+            <div class="custom-card-content">
+              <div class="custom-item">
+                <span class="step-circle">1</span>
+                <p>إعداد Prometheus و Grafana للمراقبة</p>
+              </div>
+
+              <div class="custom-item">
+                <span class="step-circle">2</span>
+                <p>تتبع الأداء والتنبيهات التلقائية</p>
+              </div>
+
+              <div class="custom-item done">
+                <span class="step-circle">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12l5 5l10 -10" />
+                  </svg>
+                </span>
+                <p>نظام مراقبة شامل لتطبيقاتك</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="col-12 col-md-6 col-lg-4 h-100">
+          <div class="custom-card">
+            <span class="card-number">06</span>
+            <h5>Final Project</h5>
+            <span class="badge-card">
+              <span class="gradient-text">الأسبوع 12</span>
+            </span>
+
+            <div class="custom-card-content">
+              <div class="custom-item">
+                <span class="step-circle">1</span>
+                <p>تصميم وبناء منصة متكاملة باستخدام كل التقنيات</p>
+              </div>
+
+              <div class="custom-item">
+                <span class="step-circle">2</span>
+                <p>إعداد عرض معماري وعرض توضيحي</p>
+              </div>
+
+              <div class="custom-item done">
+                <span class="step-circle">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12l5 5l10 -10" />
+                  </svg>
+                </span>
+                <p>مشروع احترافي جاهز للعرض في المقابلات</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <script src="js/bootstrap.bundle.js"></script>
 </body>
