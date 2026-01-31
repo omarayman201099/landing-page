@@ -78,11 +78,11 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  background: rgba(255, 255, 255, 0.9);
   backdrop-filter: blur(12px);
   z-index: 1000;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
   animation: slideDown 0.5s ease-out;
+  height: 100px;
 }
 
 nav {
@@ -113,14 +113,14 @@ nav {
   border: 2px solid var(--primary-color);
   border-radius: 50px;
   height: 51px;
-  background: rgba(255, 255, 255, 0.651);
+  background: rgba(255, 255, 255, 0.034);
 }
 
 .nav-link {
   padding: 8px 16px;
   font-size: 16px;
   font-weight: 500;
-  color: #000;
+  color: var(--bg-light);
   transition: var(--transition);
   border-radius: 24px;
   white-space: nowrap;
@@ -216,7 +216,8 @@ nav {
 }
 
 .top-img {
-  top: 0;
+  top: 30px;
+
 }
 
 .botton-img {
@@ -1134,9 +1135,11 @@ nav {
 }
 
 
-
-
-
+  .btn-what{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
 @media (max-width: 768px) {
   .what-card {
