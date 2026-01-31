@@ -1,27 +1,29 @@
-// نجيب العناصر
-var hero = document.querySelector('header');
-var navLinks = document.querySelectorAll('.nav-link'); // كل الروابط
+var nav = document.querySelector("header");
+var navLinks = document.querySelectorAll(".nav-link");
+var socialIcons = document.querySelectorAll(".social-icon");
+var socialBorders = document.querySelectorAll(".social-icon");
 
-// نراقب حركة السكروول
-window.addEventListener('scroll', function() {
-  var scrollPosition = window.scrollY; // موقع السكروول الحالي
+window.addEventListener("scroll", function () {
+  var scrollPosition = window.scrollY;
 
   if (scrollPosition >= 890) {
-    hero.style.backgroundColor = "#fff";
+    nav.style.backgroundColor = "#fff";
 
-    // تغيير لون كل الروابط
-    navLinks.forEach(function(link) {
-      link.style.color = "#000";
+    navLinks.forEach(link => link.style.color = "#000");
+    socialIcons.forEach(icon => icon.style.color = "#000");
+
+    socialBorders.forEach(border => {
+      border.style.border = "2px solid #000";
     });
-  } else {
-    hero.style.backgroundColor = "initial"; // يرجع للون الأصلي
 
-    // إعادة لون الروابط للون الأصلي
-    navLinks.forEach(function(link) {
-      link.style.color = ""; // يترك اللون الأصلي للـ CSS
+  } else {
+    nav.style.backgroundColor = "initial";
+
+    navLinks.forEach(link => link.style.color = "#ffff");
+    socialIcons.forEach(icon => icon.style.color = "#ffff");
+
+    socialBorders.forEach(border => {
+      border.style.borderColor = "#ffff";
     });
   }
-
-  // طباعة السكروول كل مرة للتجربة
-//   console.log(scrollPosition);
 });
