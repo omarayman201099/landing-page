@@ -1,88 +1,83 @@
 document.addEventListener("DOMContentLoaded", () => {
-    
-    const header = document.getElementById("header");
-    const menuToggle = document.getElementById("menuToggle");
-    const navLinks = document.getElementById("navLinks");
-    const links = document.querySelectorAll(".nav-link");
-    const socialIcon = document.querySelectorAll(".social-icon");
-    const sections = document.querySelectorAll("section");
-  
+  const header = document.getElementById("header");
+  const menuToggle = document.getElementById("menuToggle");
+  const navLinks = document.getElementById("navLinks");
+  const links = document.querySelectorAll(".nav-link");
+  const sections = document.querySelectorAll("section");
 
+  function handleScroll() {
+    /* ===== Header Style ===== */
+    header.classList.toggle("scrolled", window.scrollY > 80);
 
-    window.addEventListener("scroll", function () {
-  var scrollPosition = window.scrollY;
+    /* ===== Default (Hero) ===== */
+    if (window.scrollY < 50) {
+      links.forEach(link => link.classList.remove("active"));
+      document
+        .querySelector('.nav-link[href="#hero"]')
+        ?.classList.add("active");
+      return;
+    }
 
-  if (scrollPosition >= 100) {
-    header.style.backgroundColor = "#fff";
+    /* ===== Detect Current Section ===== */
+    let currentSection = "";
 
-    links.forEach(link => link.style.color = "#000");
-    socialIcon.forEach(link => link.style.color = "#8e3cd9");
+    sections.forEach(section => {
+      const sectionTop = section.offsetTop - 150;
+      const sectionHeight = section.offsetHeight;
 
-
-
-  } else {
-    header.style.backgroundColor = "initial";
-
-    links.forEach(link => link.style.color = "#fff");
-        socialIcon.forEach(link => link.style.color = "#fff");
-
-
- 
-  }
-});
-
-
-    /* ================= Toggle Menu ================= */
-    menuToggle.addEventListener("click", () => {
-      menuToggle.classList.toggle("active");
-
-      // Check if we're on mobile or desktop
-      if (window.innerWidth <= 991) {
-        // Mobile: toggle the slide-in menu
-        navLinks.classList.toggle("active");
-      } else {
-        // Desktop: toggle visibility
-        navLinks.classList.toggle("active");
+      if (
+        window.scrollY >= sectionTop &&
+        window.scrollY < sectionTop + sectionHeight
+      ) {
+        currentSection = section.getAttribute("id");
       }
-
-      console.log("Menu toggled");
     });
-  
-    /* ================= Close menu on link click ================= */
+
     links.forEach(link => {
-      link.addEventListener("click", () => {
-        // Remove active class from menu and toggle button on link click
-        navLinks.classList.remove("active");
-        menuToggle.classList.remove("active");
-      });
-    });
-  
-    /* ================= Scroll Effects & Active Link ================= */
-    window.addEventListener("scroll", () => {
-      if (header) {
-          header.classList.toggle("scrolled", window.scrollY > 80);
+      link.classList.remove("active");
+      if (
+        currentSection &&
+        link.getAttribute("href").includes(currentSection)
+      ) {
+        link.classList.add("active");
       }
-  
-      let current = "";
-      sections.forEach(section => {
-        const sectionTop = section.offsetTop - 150;
-        const sectionHeight = section.offsetHeight;
-  
-        if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
-          current = section.getAttribute("id");
-        }
-      });
-  
-      links.forEach(link => {
-        link.classList.remove("active");
-        if (link.getAttribute("href") && link.getAttribute("href").includes(current) && current !== "") {
-          link.classList.add("active");
-        }
-      });
     });
-  
+  }
+
+  /* ===== Run on load + scroll ===== */
+  handleScroll();
+  window.addEventListener("scroll", handleScroll);
+
+  /* ===== Toggle Menu ===== */
+  menuToggle.addEventListener("click", () => {
+    menuToggle.classList.toggle("active");
+    navLinks.classList.toggle("active");
   });
 
+  /* ===== Close Menu on Link Click ===== */
+  links.forEach(link => {
+    link.addEventListener("click", () => {
+      navLinks.classList.remove("active");
+      menuToggle.classList.remove("active");
+    });
+  });
 
+  /* ===== Close Menu on Outside Click ===== */
+  document.addEventListener("click", (e) => {
+    if (
+      !navLinks.contains(e.target) &&
+      !menuToggle.contains(e.target)
+    ) {
+      navLinks.classList.remove("active");
+      menuToggle.classList.remove("active");
+    }
+  });
 
-
+  /* ===== Resize Fix ===== */
+  window.addEventListener("resize", () => {
+    if (window.innerWidth > 991) {
+      navLinks.classList.remove("active");
+      menuToggle.classList.remove("active");
+    }
+  });
+});
