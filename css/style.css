@@ -2092,6 +2092,12 @@ footer p {
   .about-col {
     max-width: 100%;
   }
+  .seclect-2{
+    width: 100%;
+  }
+
+
+
 }
 
 @media (max-width: 768px) {
