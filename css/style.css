@@ -242,6 +242,9 @@ nav {
 
 /* ==================== RESPONSIVE ==================== */
 @media (max-width: 991px) {
+  nav{
+    gap: 15px;
+  }
   .menu-toggle {
     display: flex;
     justify-content: center;
