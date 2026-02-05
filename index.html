@@ -15,19 +15,19 @@
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/style.css" />
-</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
 
 <body>
 
   <!-- ==================== HEADER ==================== -->
  <header id="header">
-    <nav class="container">
+    <nav class="">
       <a href="#" class="logo gradient-text" aria-label="الصفحة الرئيسية">SA</a>
 
     
 
       <ul class="nav-links" id="navLinks">
-        <li><a href="#form" class="nav-link active ">التقديم</a></li>
+        <li><a href="#form" class="nav-link  ">التقديم</a></li>
         <li><a href="#what" class="nav-link">ماذا ستحصل</a></li>
         <li><a href="#how" class="nav-link">كيف يعمل</a></li>
         <li><a href="#learn" class="nav-link">محتوى الكورس</a></li>
@@ -76,191 +76,212 @@
 
   
   <!-- ==================== HERO SECTION ==================== -->
-  <section id="hero" class="hero">
-    <!-- Background Decorations -->
-    <div class="bg-decorations">
-      <img src="assets/images/top.png" alt="decoration" class="top-img">
-      <img src="assets/images/botton.png" alt="decoration" class="botton-img">
-    </div>
+<section id="hero" class="hero section">
+  <!-- Background Decorations -->
+  <div class="bg-decorations">
+    <img src="assets/images/top.png" alt="decoration" class="top-img">
+    <img src="assets/images/botton.png" alt="decoration" class="botton-img">
+  </div>
 
-    <!-- Content -->
-    <div class="container">
-      <div class="hero-content">
-        <!-- Badge -->
-        <div class="badge">
+  <!-- Content -->
+  <div class="container">
+    <div class="hero-content">
+      <!-- Badge -->
+      <div class="badge">
+        الدفعة القادمة تبدأ قريباً
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M4 13a8 8 0 017 7 6 6 0 003-5 9 9 0 006-8 3 3 0 00-3-3 9 9 0 00-8 6 6 6 0 00-5 3M7 14a6 6 0 00-3 6 6 6 0 006-3"/>
+          <circle cx="15" cy="9" r="1"/>
+        </svg>
+      </div>
+
+      <!-- Main Title -->
+      <h1 class="hero-title">DevOps & Kubernetes:</h1>
+      <p class="hero-subtitle">برنامج تطوير مهني لمدة 12 أسبوع</p>
+
+      <!-- Description -->
+      <p class="hero-description">
+        برنامج تدريبي متكامل ينقلك من "مبرمج يكتب كود" إلى "مهندس يدير النشر والتشغيل والبنية التحتية" باستخدام
+        <br class="desktop-break">
+        <span class="tech-highlight">Docker</span> و
+        <span class="tech-highlight">CI/CD</span> و
+        <span class="tech-highlight">Kubernetes</span> و
+        <span class="tech-highlight">Terraform</span>
+      </p>
+
+      <p class="hero-note">
+        ليس مجرد كورس أو دبلومة – بل مسار مهني منظم لمدة 3 شهور مع مشاريع حقيقية، إرشاد مباشر، ودعم وظيفي.
+      </p>
+
+      <!-- Buttons -->
+      <div class="button-group">
+        <button class="btn btn-primary">
+          <p class="gradient-text">قدّم للدفعة القادمة</p>
+        </button>
+        <button class="btn btn-secondary-4">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M4 13a8 8 0 017 7 6 6 0 003-5 9 9 0 006-8 3 3 0 00-3-3 9 9 0 00-8 6 6 6 0 00-5 3M7 14a6 6 0 00-3 6 6 6 0 006-3"/>
-            <circle cx="15" cy="9" r="1"/>
+            <path d="M5 12h14M5 12l4 4M5 12l4-4"/>
           </svg>
-          الدفعة القادمة تبدأ قريباً
-        </div>
-
-        <!-- Main Title -->
-        <h1 class="hero-title">DevOps & Kubernetes:</h1>
-        <p class="hero-subtitle">برنامج تطوير مهني لمدة 12 أسبوع</p>
-
-        <!-- Description -->
-        <p class="hero-description">
-          برنامج تدريبي متكامل ينقلك من "مبرمج يكتب كود" إلى "مهندس يدير النشر والتشغيل والبنية التحتية" باستخدام
-          <br>
-          <span class="tech-highlight">Docker</span> و
-          <span class="tech-highlight">CI/CD</span> و
-          <span class="tech-highlight">Kubernetes</span> و
-          <span class="tech-highlight">Terraform</span>
-        </p>
-
-        <p class="hero-note">
-          ليس مجرد كورس أو دبلومة – بل مسار مهني منظم لمدة 3 شهور مع مشاريع حقيقية، إرشاد مباشر، ودعم وظيفي.
-        </p>
-
-        <!-- Buttons -->
-        <div class="button-group">
-          <button class="btn btn-primary">
-            <p class="gradient-text">قدّم للدفعة القادمة</p>
-          </button>
-          <button class="btn btn-secondary-4">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M5 12h14M5 12l4 4M5 12l4-4"/>
-            </svg>
-            عرض تفاصيل البرنامج
-          </button>
-        </div>
+          عرض تفاصيل البرنامج
+        </button>
       </div>
     </div>
-  </section>
-
+  </div>
+</section>
 
 
 
 
   <!-- ==================== WHO SECTION ==================== -->
-  <section id="who" class="who-section">
-    <div class="container">
-      <!-- Title Section -->
-      <div class="title-content">
-        <span class="badge-2">
-                    لمن هذا المسار؟
-
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-user"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" /><path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" /></svg>
-        </span>
-        <div class="who-content">
-          <h1><span class="blue">لمن</span> هذا البرنامج؟</h1>
-          <h4>هذا البرنامج مخصص للمهندسين أصحاب الخبرة الذين يريدون انتقالًا حقيقيًا إلى مجال DevOps و Kubernetes وليس للمبتدئين</h4>
-        </div>
-      </div>
-
-      <div class="row g-4">
-        <!-- Left Column -->
-        <div class="col-12 col-lg-6">
-
-            <!-- card1 -->
-          <div class="info-card mb-4" dir="rtl" lang="ar">
-            <div class="card-content">
-              <div class="card-header-section">
-                <div class="card-icon-wrapper">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M10.04 4.305c2.195 -.667 4.615 -.224 6.36 1.176c1.386 1.108 2.188 2.686 2.252 4.34l.003 .212l.091 .003c2.3 .107 4.143 1.961 4.25 4.27l.004 .211c0 2.407 -1.885 4.372 -4.255 4.482l-.21 .005h-11.878l-.222 -.008c-2.94 -.11 -5.317 -2.399 -5.43 -5.263l-.005 -.216c0 -2.747 2.08 -5.01 4.784 -5.417l.114 -.016l.07 -.181c.663 -1.62 2.056 -2.906 3.829 -3.518l.244 -.08z" />
-                  </svg>
-                </div>
-                <h5 class="card-title">للمطورين ومهندسي DevOps Cloud</h5>
-              </div>
-              <p class="card-description">
-                مسار واضح لمدة 12 أسبوعًا يأخذك من البرمجة فقط إلى العمل الحقيقي في DevOps، مع تركيز عملي على الحاويات، خطوط CI/CD، Kubernetes، والبنية التحتية كـكود (Infrastructure as Code).
-              </p>
-            </div>
-          </div>
-
-          <!-- card 2 -->
-         <div class="info-card" dir="rtl" lang="ar">
-  <div class="card-content">
-
-    <!-- Header -->
-    <div class="card-header-section">
-      <div class="card-icon-wrapper">
-        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none"
-          stroke="currentColor" stroke-width="2">
-          <path d="M7 8l-4 4l4 4" />
-          <path d="M17 8l4 4l-4 4" />
-          <path d="M14 4l-4 16" />
+ <section id="who" class="who-section section">
+  <div class="container">
+    <!-- Title Section -->
+    <div class="title-content">
+      <span class="badge-2">
+        لمن هذا المسار؟
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-user">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" />
+          <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
         </svg>
+      </span>
+      <div class="who-content">
+        <h1><span class="blue">لمن</span> هذا البرنامج؟</h1>
+        <h4>هذا البرنامج مخصص للمهندسين أصحاب الخبرة الذين يريدون انتقالًا حقيقيًا إلى مجال DevOps و Kubernetes وليس للمبتدئين</h4>
       </div>
-      <h5 class="card-title">مناسب لك إذا كنت</h5>
     </div>
 
-    <!-- List -->
-    <ul class="card-list">
-      <li>
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler check-icon icons-tabler-outline icon-tabler-circle-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M9 12l2 2l4 -4" /></svg>
-        مطور برمجيات بخبرة 3+ سنوات وتسعى لتعزيز خبرتك العملية بأدوات DevOps كاملة.
-      </li>
-
-      <li>
-   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler check-icon icons-tabler-outline icon-tabler-circle-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M9 12l2 2l4 -4" /></svg>
-
-        مهندس DevOps بدون خبرة قوية في Kubernetes.
-      </li>
-
-      <li>
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler check-icon icons-tabler-outline icon-tabler-circle-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M9 12l2 2l4 -4" /></svg>
-
-        مهندس Cloud يريد إدارة النشر والتشغيل بشكل كامل.
-      </li>
-    </ul>
-
-  </div>
-        </div>
-
-  <!-- card 3 -->
-          <div class="info-card mb-4 mb-lg-0 mt-4" dir="rtl" lang="ar">
-            <div class="card-content">
-              <div class="card-header-section">
-                <div class="card-icon-wrapper">
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-user-off"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8.18 8.189a4.01 4.01 0 0 0 2.616 2.627m3.507 -.545a4 4 0 1 0 -5.59 -5.552" /><path d="M6 21v-2a4 4 0 0 1 4 -4h4c.412 0 .81 .062 1.183 .178m2.633 2.618c.12 .38 .184 .785 .184 1.204v2" /><path d="M3 3l18 18" /></svg>                    <path d="M10.04 4.305c2.195 -.667 4.615 -.224 6.36 1.176c1.386 1.108 2.188 2.686 2.252 4.34l.003 .212l.091 .003c2.3 .107 4.143 1.961 4.25 4.27l.004 .211c0 2.407 -1.885 4.372 -4.255 4.482l-.21 .005h-11.878l-.222 -.008c-2.94 -.11 -5.317 -2.399 -5.43 -5.263l-.005 -.216c0 -2.747 2.08 -5.01 4.784 -5.417l.114 -.016l.07 -.181c.663 -1.62 2.056 -2.906 3.829 -3.518l.244 -.80z" />
-                  </svg>
-                </div>
-                <h5 class="card-title">ليس مناسبًا لك إذا كنت</h5>
+    <div class="row g-4">
+      <!-- Left Column -->
+      <div class="col-12 col-lg-6">
+        <!-- card1 -->
+        <div class="info-card mb-4" dir="rtl" lang="ar">
+          <div class="card-content">
+            <div class="card-header-section">
+              <div class="card-icon-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M10.04 4.305c2.195 -.667 4.615 -.224 6.36 1.176c1.386 1.108 2.188 2.686 2.252 4.34l.003 .212l.091 .003c2.3 .107 4.143 1.961 4.25 4.27l.004 .211c0 2.407 -1.885 4.372 -4.255 4.482l-.21 .005h-11.878l-.222 -.008c-2.94 -.11 -5.317 -2.399 -5.43 -5.263l-.005 -.216c0 -2.747 2.08 -5.01 4.784 -5.417l.114 -.016l.07 -.181c.663 -1.62 2.056 -2.906 3.829 -3.518l.244 -.08z" />
+                </svg>
               </div>
-        <ul class="card-list">
-      <li>
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler fals-icon icons-tabler-outline icon-tabler-xbox-x"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 21a9 9 0 0 0 9 -9a9 9 0 0 0 -9 -9a9 9 0 0 0 -9 9a9 9 0 0 0 9 9" /><path d="M9 8l6 8" /><path d="M15 8l-6 8" /></svg>       
-          مبتدئ تمامًا في البرمجة أو Linux.
-      </li>
-
-      <li>
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler fals-icon icons-tabler-outline icon-tabler-xbox-x"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 21a9 9 0 0 0 9 -9a9 9 0 0 0 -9 -9a9 9 0 0 0 -9 9a9 9 0 0 0 9 9" /><path d="M9 8l6 8" /><path d="M15 8l-6 8" /></svg>
-        لم تستخدم Git أو Terminal أو سكربتات بسيطة.
-      </li>
-
-      <li>
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler fals-icon icons-tabler-outline icon-tabler-xbox-x"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 21a9 9 0 0 0 9 -9a9 9 0 0 0 -9 -9a9 9 0 0 0 -9 9a9 9 0 0 0 9 9" /><path d="M9 8l6 8" /><path d="M15 8l-6 8" /></svg>  
-        لا تستطيع الالتزام بـ 4 ساعات أسبوعيًا لايف + وقت للمشاريع.
-      </li>
-    </ul>
+              <h5 class="card-title">للمطورين ومهندسي DevOps Cloud</h5>
             </div>
+            <p class="card-description">
+              مسار واضح لمدة 12 أسبوعًا يأخذك من البرمجة فقط إلى العمل الحقيقي في DevOps، مع تركيز عملي على الحاويات، خطوط CI/CD، Kubernetes، والبنية التحتية كـكود (Infrastructure as Code).
+            </p>
           </div>
         </div>
 
+        <!-- card 2 -->
+        <div class="info-card" dir="rtl" lang="ar">
+          <div class="card-content">
+            <!-- Header -->
+            <div class="card-header-section">
+              <div class="card-icon-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M7 8l-4 4l4 4" />
+                  <path d="M17 8l4 4l-4 4" />
+                  <path d="M14 4l-4 16" />
+                </svg>
+              </div>
+              <h5 class="card-title">مناسب لك إذا كنت</h5>
+            </div>
 
+            <!-- List -->
+            <ul class="card-list">
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler check-icon icons-tabler-outline icon-tabler-circle-check">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                  <path d="M9 12l2 2l4 -4" />
+                </svg>
+                مطور برمجيات بخبرة 3+ سنوات وتسعى لتعزيز خبرتك العملية بأدوات DevOps كاملة.
+              </li>
 
-  <div class="col-12 col-lg-6">
-  <div class="right featured-course-card">
-    <img src="./assets/images/Group 92.png" alt="">
-  </div>
-</div>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler check-icon icons-tabler-outline icon-tabler-circle-check">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                  <path d="M9 12l2 2l4 -4" />
+                </svg>
+                مهندس DevOps بدون خبرة قوية في Kubernetes.
+              </li>
 
-      
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler check-icon icons-tabler-outline icon-tabler-circle-check">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                  <path d="M9 12l2 2l4 -4" />
+                </svg>
+                مهندس Cloud يريد إدارة النشر والتشغيل بشكل كامل.
+              </li>
+            </ul>
+          </div>
+        </div>
 
+        <!-- card 3 -->
+        <div class="info-card mb-4 mb-lg-0 mt-4" dir="rtl" lang="ar">
+          <div class="card-content">
+            <div class="card-header-section">
+              <div class="card-icon-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-user-off">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                  <path d="M8.18 8.189a4.01 4.01 0 0 0 2.616 2.627m3.507 -.545a4 4 0 1 0 -5.59 -5.552" />
+                  <path d="M6 21v-2a4 4 0 0 1 4 -4h4c.412 0 .81 .062 1.183 .178m2.633 2.618c.12 .38 .184 .785 .184 1.204v2" />
+                  <path d="M3 3l18 18" />
+                </svg>
+              </div>
+              <h5 class="card-title">ليس مناسبًا لك إذا كنت</h5>
+            </div>
+            <ul class="card-list">
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler fals-icon icons-tabler-outline icon-tabler-xbox-x">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                  <path d="M12 21a9 9 0 0 0 9 -9a9 9 0 0 0 -9 -9a9 9 0 0 0 -9 9a9 9 0 0 0 9 9" />
+                  <path d="M9 8l6 8" />
+                  <path d="M15 8l-6 8" />
+                </svg>       
+                مبتدئ تمامًا في البرمجة أو Linux.
+              </li>
 
-     
-         
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler fals-icon icons-tabler-outline icon-tabler-xbox-x">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                  <path d="M12 21a9 9 0 0 0 9 -9a9 9 0 0 0 -9 -9a9 9 0 0 0 -9 9a9 9 0 0 0 9 9" />
+                  <path d="M9 8l6 8" />
+                  <path d="M15 8l-6 8" />
+                </svg>
+                لم تستخدم Git أو Terminal أو سكربتات بسيطة.
+              </li>
+
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler fals-icon icons-tabler-outline icon-tabler-xbox-x">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                  <path d="M12 21a9 9 0 0 0 9 -9a9 9 0 0 0 -9 -9a9 9 0 0 0 -9 9a9 9 0 0 0 9 9" />
+                  <path d="M9 8l6 8" />
+                  <path d="M15 8l-6 8" />
+                </svg>  
+                لا تستطيع الالتزام بـ 4 ساعات أسبوعيًا لايف + وقت للمشاريع.
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-  </section>
+
+      <!-- Right Column -->
+      <div class="col-12 col-lg-6">
+        <div class="right featured-course-card">
+          <img src="./assets/images/Group 92.png" alt="DevOps Course">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 
 
   <!-- ==================== LEARNING SECTION ==================== -->
-  <section id="learn" class="who-section section" style="background: #f9fafb;">
+  <section id="learn" class="who-section section " style="background: #f9fafb;">
     <div class="container">
       <!-- Title Section -->
       <div class="title-content">
@@ -554,143 +575,100 @@
 
 
   <!--  how it works -->
-<section id="how"  class="container mt-5 section" dir="rtl" lang="ar">
+<section id="how" class="section how-section" dir="rtl" lang="ar">
+  <div class="container">
 
-  <!-- Title -->
-  <div class="title-content">
-    <span class="badge-2">
-      محتوى البرنامج
-      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
-        <path d="M16 18a2 2 0 1 1 4 0a2 2 0 1 1 -4 0" />
-      </svg>
-    </span>
+    <!-- TITLE -->
+    <div class="title-content">
+      <span class="badge-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M12 3l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/>
+        </svg>
+        محتوى البرنامج
+      </span>
 
-    <div class="who-content">
       <h1><span class="blue">كيف يعمل</span> البرنامج</h1>
     </div>
-  </div>
 
-  <!-- HOW CARDS -->
-  <div class="cards">
-
-    
-  
- <div class="how-card">
-      <div class="card-content">
-        <div class="svg-4">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-calendar-event"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M16 2a1 1 0 0 1 .993 .883l.007 .117v1h1a3 3 0 0 1 2.995 2.824l.005 .176v12a3 3 0 0 1 -2.824 2.995l-.176 .005h-12a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-12a3 3 0 0 1 2.824 -2.995l.176 -.005h1v-1a1 1 0 0 1 1.993 -.117l.007 .117v1h6v-1a1 1 0 0 1 1 -1m3 7h-14v9.625c0 .705 .386 1.286 .883 1.366l.117 .009h12c.513 0 .936 -.53 .993 -1.215l.007 -.16z" /><path d="M8 14h2v2h-2z" /></svg>
-        </div>
-        <span>المدة</span>
-        <p>3 شهور – 12 أسبوع</p>
-      </div>
-    </div>
-
- 
-    
+    <!-- CARDS -->
+    <div class="cards">
       <div class="how-card">
-      <div class="card-content blue-2">
-        <div class="svg-4">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-video"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M15 10l4.553 -2.276a1 1 0 0 1 1.447 .894v6.764a1 1 0 0 1 -1.447 .894l-4.553 -2.276v-4" /><path d="M3 8a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2l0 -8" /></svg>
+        <div class="card-content">
+          <div class="svg-4"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-calendar-week"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M16 2c.183 0 .355 .05 .502 .135l.033 .02c.28 .177 .465 .49 .465 .845v1h1a3 3 0 0 1 2.995 2.824l.005 .176v12a3 3 0 0 1 -2.824 2.995l-.176 .005h-12a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-12a3 3 0 0 1 2.824 -2.995l.176 -.005h1v-1a1 1 0 0 1 .514 -.874l.093 -.046l.066 -.025l.1 -.029l.107 -.019l.12 -.007q .083 0 .161 .013l.122 .029l.04 .012l.06 .023c.328 .135 .568 .44 .61 .806l.007 .117v1h6v-1a1 1 0 0 1 1 -1m3 7h-14v9.625c0 .705 .386 1.286 .883 1.366l.117 .009h12c.513 0 .936 -.53 .993 -1.215l.007 -.16z" /><path d="M9.015 13a1 1 0 0 1 -1 1a1.001 1.001 0 1 1 -.005 -2c.557 0 1.005 .448 1.005 1" /><path d="M13.015 13a1 1 0 0 1 -1 1a1.001 1.001 0 1 1 -.005 -2c.557 0 1.005 .448 1.005 1" /><path d="M17.02 13a1 1 0 0 1 -1 1a1.001 1.001 0 1 1 -.005 -2c.557 0 1.005 .448 1.005 1" /><path d="M12.02 15a1 1 0 0 1 0 2a1.001 1.001 0 1 1 -.005 -2z" /><path d="M9.015 16a1 1 0 0 1 -1 1a1.001 1.001 0 1 1 -.005 -2c.557 0 1.005 .448 1.005 1" /></svg></div>
+          <span>المدة</span>
+          <p>3 شهور – 12 أسبوع</p>
         </div>
-        <span class="blue-2">اللايف</span>
-        <p>4 ساعات أسبوعيًا جلسات مباشرة</p>
+      </div>
+
+      <div class="how-card blue-card">
+        <div class="card-content">
+          <div class="svg-4"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-camera-plus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 20h-7a2 2 0 0 1 -2 -2v-9a2 2 0 0 1 2 -2h1a2 2 0 0 0 2 -2a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1a2 2 0 0 0 2 2h1a2 2 0 0 1 2 2v3.5" /><path d="M16 19h6" /><path d="M19 16v6" /><path d="M9 13a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /></svg></div>
+          <span>اللايف</span>
+          <p>4 ساعات أسبوعيًا جلسات مباشرة</p>
+        </div>
+      </div>
+
+      <div class="how-card">
+        <div class="card-content">
+          <div class="svg-4"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-sparkles"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M16 18a2 2 0 0 1 2 2a2 2 0 0 1 2 -2a2 2 0 0 1 -2 -2a2 2 0 0 1 -2 2m0 -12a2 2 0 0 1 2 2a2 2 0 0 1 2 -2a2 2 0 0 1 -2 -2a2 2 0 0 1 -2 2m-7 12a6 6 0 0 1 6 -6a6 6 0 0 1 -6 -6a6 6 0 0 1 -6 6a6 6 0 0 1 6 6" /></svg></div>
+          <span>الطريقة</span>
+          <p>شرح + تطبيق عملي + ديموهات</p>
+        </div>
+      </div>
+
+      <div class="how-card blue-card">
+        <div class="card-content">
+          <div class="svg-4"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-clock-hour-12"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M12 7v5" /></svg></div>
+          <span>الوقت</span>
+          <p>3–4 ساعات إضافية</p>
+        </div>
+      </div>
+
+      <div class="how-card">
+        <div class="card-content">
+          <div class="svg-4"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-users"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 7a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" /><path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" /><path d="M16 3.13a4 4 0 0 1 0 7.75" /><path d="M21 21v-2a4 4 0 0 0 -3 -3.85" /></svg></div>
+          <span>النظام</span>
+          <p>مجموعة صغيرة</p>
+        </div>
       </div>
     </div>
 
+    <!-- ADD BOX -->
+    <div class="add-box">
 
-    <div class="how-card">
-      <div class="card-content">
-        <div class="svg-4">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-sparkles"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M16 18a2 2 0 0 1 2 2a2 2 0 0 1 2 -2a2 2 0 0 1 -2 -2a2 2 0 0 1 -2 2m0 -12a2 2 0 0 1 2 2a2 2 0 0 1 2 -2a2 2 0 0 1 -2 -2a2 2 0 0 1 -2 2m-7 12a6 6 0 0 1 6 -6a6 6 0 0 1 -6 -6a6 6 0 0 1 -6 6a6 6 0 0 1 6 6" /></svg>
+      <h3 class="add-title">إضافة مميزة تقدم بجانب البرنامج</h3>
+
+      <div class="add-box-inner">
+
+        <!-- RIGHT CARD -->
+        <div class="add-right">
+          <div class="top-card">
+            <div class="icon-box"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-sparkles"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M16 18a2 2 0 0 1 2 2a2 2 0 0 1 2 -2a2 2 0 0 1 -2 -2a2 2 0 0 1 -2 2m0 -12a2 2 0 0 1 2 2a2 2 0 0 1 2 -2a2 2 0 0 1 -2 -2a2 2 0 0 1 -2 2m-7 12a6 6 0 0 1 6 -6a6 6 0 0 1 -6 -6a6 6 0 0 1 -6 6a6 6 0 0 1 6 6" /></svg></div>
+            <strong>برنامج الإرشاد المهني</strong>
+          </div>
+
+          <p>
+            جلسات فردية ومتابعة مستمرة حتى التوظيف.
+          </p>
+
+          <div class="price-box">
+            <span class="old-price">3000 EGP</span>
+          </div>
+
+          <button class="btn-white">مجانًا مع البرنامج</button>
         </div>
-        <span>الطريقة</span>
-        <p>شرح مفاهيم + ديموهات لايف + تطبيق عملي</p>
-      </div>
-    </div>
 
-
-        <div class="how-card">
-      <div class="card-content blue-2">
-        <div class="svg-4">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-clock"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" /><path d="M12 7v5l3 3" /></svg>
+        <!-- LEFT LIST -->
+        <div class="add-left">
+          <div class="add-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-folder"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 4h4l3 3h7a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-11a2 2 0 0 1 2 -2" /></svg> مراجعة مشاريع عملية وتوجيه مباشر و توجيه تقني لتحسين المشروع النهائي وطريقة عرضه.</div>
+          <div class="add-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-users"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 7a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" /><path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" /><path d="M16 3.13a4 4 0 0 1 0 7.75" /><path d="M21 21v-2a4 4 0 0 0 -3 -3.85" /></svg>جلسة إرشاد فردية  خلال البرنامج و ملاحظات عملية من واقع خبرة سوق العمل.</div>
+          <div class="add-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-file-dots"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 2l.117 .007a1 1 0 0 1 .876 .876l.007 .117v4l.005 .15a2 2 0 0 0 1.838 1.844l.157 .006h4l.117 .007a1 1 0 0 1 .876 .876l.007 .117v9a3 3 0 0 1 -2.824 2.995l-.176 .005h-10a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-14a3 3 0 0 1 2.824 -2.995l.176 -.005zm-3 12a1 1 0 0 0 -.993 .883l-.007 .127a1 1 0 0 0 1.993 .117l.007 -.127a1 1 0 0 0 -1 -1m3 0a1 1 0 0 0 -.993 .883l-.007 .127a1 1 0 0 0 1.993 .117l.007 -.127a1 1 0 0 0 -1 -1m3 0a1 1 0 0 0 -.993 .883l-.007 .127a1 1 0 0 0 1.993 .117l.007 -.127a1 1 0 0 0 -1 -1" /><path d="M19 7h-4l-.001 -4.001z" /></svg> مراجعة سيرة ذاتية متخصصة لمسار DevOps </div>
         </div>
-        <span>الوقت</span>
-        <p>3–4 وقت إضافي</p>
+
       </div>
-    </div>
-
-
-     <div class="how-card">
-      <div class="card-content">
-        <div class="svg-4">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-users"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 7a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" /><path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" /><path d="M16 3.13a4 4 0 0 1 0 7.75" /><path d="M21 21v-2a4 4 0 0 0 -3 -3.85" /></svg>
-        </div>
-        <span>النظام</span>
-        <p>مجموعة صغيرة من مهندسين ذوي خبرة</p>
-      </div>
-    </div>
-   
-
-  </div>
-
-  <!-- ADD BOX -->
-
- 
-<div class="add-box mt-5" dir="rtl">
-
-<div class="add-box-div">
-    <h3 class="mb-5">إضافة مميزة تقدم بجانب البرنامج</h3>
-
-  <!-- Right Card -->
-  <div class="add-box-right text-center">
-    <div class="top-card  gap-2">
-  <div class="right-icon">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-sparkles"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M16 18a2 2 0 0 1 2 2a2 2 0 0 1 2 -2a2 2 0 0 1 -2 -2a2 2 0 0 1 -2 2m0 -12a2 2 0 0 1 2 2a2 2 0 0 1 2 -2a2 2 0 0 1 -2 -2a2 2 0 0 1 -2 2m-7 12a6 6 0 0 1 6 -6a6 6 0 0 1 -6 -6a6 6 0 0 1 -6 6a6 6 0 0 1 6 6" /></svg>
-      
-    </div>
-        <div>
-      <span class="span">
-        برنامج الإرشاد والتوجيه المهني
-      </span>
-    </div>
-    </div>
-  
-
-    <p>
-      برنامج مخصص لمساعدتك على دخول سوق العمل،
-      من خلال جلسات فردية ومتابعة مستمرة حتى التوظيف.
-    </p>
-
- <div class="price-section">
-  <span class="price old-price">3000 EGP</span>
-</div>
-    <button class="btn-white gradient-text">مجانًا مع البرنامج</button>
-  </div>
-
-</div>
- 
-  <!-- Left List -->
-  <div class="add-box-left">
-
-    <div class="add-item">
-      <span class="add-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-folder-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M11 19h-6a2 2 0 0 1 -2 -2v-11a2 2 0 0 1 2 -2h4l3 3h7a2 2 0 0 1 2 2v4" /><path d="M15 19l2 2l4 -4" /></svg></span>
-      <p>مراجعة مشاريع عملية وتوجيه مباشر و توجيه تقني لتحسين المشروع النهائي وطريقة عرضه.</p>
-    </div>
-
-    <div class="add-item">
-      <span class="add-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-user-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" /><path d="M6 21v-2a4 4 0 0 1 4 -4h4" /><path d="M15 19l2 2l4 -4" /></svg></span>
-      <p>جلسة إرشاد فردية  خلال البرنامج و ملاحظات عملية من واقع خبرة سوق العمل.</p>
-    </div>
-
-    <div class="add-item">
-      <span class="add-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-file-description"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 2l.117 .007a1 1 0 0 1 .876 .876l.007 .117v4l.005 .15a2 2 0 0 0 1.838 1.844l.157 .006h4l.117 .007a1 1 0 0 1 .876 .876l.007 .117v9a3 3 0 0 1 -2.824 2.995l-.176 .005h-10a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-14a3 3 0 0 1 2.824 -2.995l.176 -.005zm3 14h-6a1 1 0 0 0 0 2h6a1 1 0 0 0 0 -2m0 -4h-6a1 1 0 0 0 0 2h6a1 1 0 0 0 0 -2" /><path d="M19 7h-4l-.001 -4.001z" /></svg></span>
-      <p>مراجعة سيرة ذاتية متخصصة لمسار DevOps </p>
     </div>
 
   </div>
-
-</div>
-
 </section>
 
 
@@ -699,9 +677,17 @@
 
 
 
+
+
+
+
+
+
     <!-- what will you get ? -->
-    <section id="what" class=" section ">
-      <div class="row">
+    <section id="what" class=" section  ">
+
+      <div class="container">
+   <div class="row">
 
         <!-- title -->
            <div class="title-content">
@@ -713,7 +699,6 @@
           <h1><span class="blue" >ماذا ستحصل</span> عليه بعد البرنامج ؟</h1>
         </div>
       </div>
-
 
 
       <!-- cards -->
@@ -798,7 +783,7 @@
 
           <!-- btn  -->
 
-      <div class="container d-flex justify-content-center align-items-center">
+      <div class="container d-flex justify-content-center align-items-center mt-5">
   <button class="btn btn-secondary-4 btn-6">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
       <path d="M5 12h14M5 12l4 4M5 12l4-4"/>
@@ -810,6 +795,8 @@
 
 
       </div>
+      </div>
+   
     </section>
 
 
@@ -817,7 +804,9 @@
 
 
     <!-- mainding -->
-  <section id="minding"   class="container program-section section ">
+  <section id="minding"   class=" program-section section ">
+
+    <div class="container">
   <!-- title -->
   <div class="title-content text-center">
     <span class="badge-2">
@@ -846,15 +835,15 @@
         <div class="card-body-2" lang="ar" dir="rtl">
           <span>يشمل الاشتراك</span>
           <ul class="d-flex flex-column gap-2">
-            <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-circle-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M9 12l2 2l4 -4" /></svg> البرنامج الكامل لمدة 12 أسبوع</li>
-            <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-circle-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M9 12l2 2l4 -4" /></svg> جلسات مباشرة 4 ساعات أسبوعيًا</li>
-            <li> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-circle-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M9 12l2 2l4 -4" /></svg>جميع المشاريع العملية والتطبيقات</li>
-            <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-circle-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M9 12l2 2l4 -4" /></svg> الوصول إلى المواد خلال فترة البرنامج</li>
+            <li><i class="fa-solid fa-check gradient-text "></i> البرنامج الكامل لمدة 12 أسبوع</li>
+            <li><i class="fa-solid fa-check gradient-text "></i> جلسات مباشرة 4 ساعات أسبوعيًا</li>
+            <li> <i class="fa-solid fa-check  gradient-text"></i>جميع المشاريع العملية والتطبيقات</li>
+            <li><i class="fa-solid fa-check  gradient-text"></i> الوصول إلى المواد خلال فترة البرنامج</li>
           </ul>
         </div>
 
         <div class="text-center mt-4">
-          <button class="btn btn-secondary-4">
+          <button class="btn btn-secondary-4  w-100 d-flex justify-content-center">
             اشترك الآن
           </button>
         </div>
@@ -908,6 +897,9 @@
     </div>
 
   </div>
+    </div>
+
+
 </section>
 
 
@@ -918,7 +910,7 @@
 
 
 <!-- form -->
-<section id="form" class="container section mb-5">
+<section id="form" class="container section mb-5 ">
   <div class="row">
     <!-- Title -->
     <div class="title-content text-center mb-5">
@@ -1102,7 +1094,7 @@
   <!-- footer -->
 
 <footer>
-  <div class="container footer-flex">
+  <div class="container footer-flex pb-5">
 
     <!-- About Column (First on Right) -->
    <div class="footer-column newsletter-col" dir="rtl" lang="ar">
