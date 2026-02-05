@@ -207,16 +207,31 @@ nav {
 }
 
 .social-icon {
+  position: relative;
   width: 40px;
   height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid var(--primary-color);
   border-radius: 10px;
   color: var(--bg-light);
   transition: var(--transition);
 }
+
+
+.social-icon::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 10px;
+  padding: 1.5px;
+  background: linear-gradient(to right, hsl(289, 65%, 64%), hsl(226, 78%, 67%));
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
 
 .social-icon:hover {
   background: var(--gradient-2);
