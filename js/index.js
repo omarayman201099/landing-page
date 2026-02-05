@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function handleScrollColors() {
     let scrollPosition = window.scrollY;
 
-    // لو المينيو مفتوحة سيب اللون أسود
+    // لو المينيو مفتوحة خلي اللون أسود
     if (navLinks.classList.contains("active")) {
       links.forEach(link => link.style.color = "#000");
       social.forEach(icon => icon.style.color = "#000");
@@ -20,12 +20,31 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (scrollPosition >= 546) {
       header.style.backgroundColor = "#fff";
-      links.forEach(link => link.style.color = "#000");
-      social.forEach(icon => icon.style.color = "#000");
+
+      // links gradient
+      links.forEach(link => link.classList.add('gradient'));
+      
+      // social gradient
+      social.forEach(icon => {
+        icon.style.color = "#7C3AED";
+
+      });
+
     } else {
       header.style.backgroundColor = "transparent";
-      links.forEach(link => link.style.color = "#fff");
-      social.forEach(icon => icon.style.color = "#fff");
+
+      // links white
+      links.forEach(link => {
+        link.classList.remove('gradient');
+        link.style.color = "#fff";
+      });
+
+      // social white
+      social.forEach(icon => {
+        icon.style.background = "none";
+        icon.style.color = "#fff";
+        icon.style.webkitTextFillColor = "initial";
+      });
     }
   }
 
@@ -66,6 +85,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  // أول تحميل
+  /* ================= First Load ================= */
   handleScrollColors();
+
 });
