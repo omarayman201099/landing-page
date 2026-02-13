@@ -68,7 +68,7 @@
 
   
   <!-- ==================== HERO SECTION ==================== -->
-<section id="hero" class="hero ">
+<section id="hero" class="hero">
   <!-- Background Decorations -->
   <div class="bg-decorations">
     <img src="assets/images/top.png" alt="decoration" class="top-img">
@@ -92,7 +92,7 @@
       <p class="hero-subtitle">برنامج تدريبي احترافي لمدة 12 أسبوع</p>
 
       <!-- Description -->
-      <p class="hero-description">
+      <p class="hero-description" lang="ar" dir="rtl">
         برنامج عملي متكامل مصمم خصيصًا للDevolopers  الذين يرغبون في الانتقال الي مجال DevOps .او لمهندس  Cloud  الذين يريدون بناء اساس قوي في Containers و Production-grade Build و  Deploy Automation و المعتمدة في كبرى الشركات
 
       </p>
@@ -289,7 +289,7 @@ DevOps Engineer يعمل بالفعل ولكن يريد إتقان Kubernetes و
 
 
   <!-- ==================== LEARNING SECTION ==================== -->
-  <section id="learn" class="who-section section " style="background: #f9fafb;">
+<section id="learn" class="who-section section " style="background: #f9fafb;"  lang="ar" dir="ltr">
     <div class="container">
       <!-- Title Section -->
       <div class="title-content">
@@ -308,6 +308,14 @@ DevOps Engineer يعمل بالفعل ولكن يريد إتقان Kubernetes و
       <!-- Cards -->
       <div class="row g-4">
 
+        <!-- PHASE 1 HEADER -->
+        <div class="col-12">
+          <div style="text-align: right; margin-bottom: 40px;">
+            <h3 style="color: #4B8DFF; font-weight: 800; font-size: 24px; margin-bottom: 8px;">Phase 1 — Foundations</h3>
+            <p style="color: #888; font-size: 16px; margin: 0;">DevOps Core Skills</p>
+          </div>
+        </div>
+
         <!-- Card 1 -->
          <div class="col-12 col-md-6 col-lg-4">
   <div class="custom-card">
@@ -318,10 +326,10 @@ DevOps Engineer يعمل بالفعل ولكن يريد إتقان Kubernetes و
       <h5>Onboarding</h5>
 
       <span class="badge-card">
-        <span class="gradient-text">الأسبوع 1</span>
+        <span class="gradient-text">Week 1</span>
       </span>
 
-      <p class="card-desc">تهيئة كاملة قبل المشاريع</p>
+      <p class="card-desc">DevOps Core Skills</p>
     </div>
 
     <div class="custom-card-content">
@@ -333,7 +341,7 @@ DevOps Engineer يعمل بالفعل ولكن يريد إتقان Kubernetes و
 
       <div class="custom-item">
         <span class="step-circle">2</span>
-        <p>إعداد بيئة Docker وGit وKubernetes وTerraform</p>
+        <p>إعداد بيئة العمل: Git, Docker, Kubernetes, Terraform</p>
       </div>
 
       <div class="custom-item done">
@@ -344,7 +352,7 @@ DevOps Engineer يعمل بالفعل ولكن يريد إتقان Kubernetes و
             <path d="M5 12l5 5l10 -10" />
           </svg>
         </span>
-        <p>مراجعة السيرة الذاتية وGitHub</p>
+        <p>تنظيم GitHub profile ومراجعة السيرة الذاتية Technical-wise</p>
       </div>
 
     </div>
@@ -359,25 +367,29 @@ DevOps Engineer يعمل بالفعل ولكن يريد إتقان Kubernetes و
     <span class="card-number">02</span>
 
     <div class="card-header">
-      <h5>Doker</h5>
+      <h5>Docker</h5>
 
       <span class="badge-card">
-        <span class="gradient-text">الأسبوع 2-3</span>
+        <span class="gradient-text">Week 2-3</span>
       </span>
 
-      <p class="card-desc">في نهاية هذه المرحلة ستنفّذ مشروعًا عمليًا</p>
+      <p class="card-desc">Container Fundamentals & Best Practices</p>
     </div>
 
     <div class="custom-card-content">
 
       <div class="custom-item">
         <span class="step-circle">1</span>
-        <p>تحويل تطبيق موجود إلى حاوية باستخدام Docker.</p>
+        <p>Docker architecture و container concepts</p>
       </div>
 
       <div class="custom-item">
         <span class="step-circle">2</span>
-        <p>استخدام Multi-stage builds و  registry و tagging</p>
+        <p>Writing Production-ready Dockerfiles</p>
+      </div>
+      <div class="custom-item">
+        <span class="step-circle">3</span>
+        <p>Multi-stage builds و image optimization</p>
       </div>
 
       <div class="custom-item done">
@@ -388,12 +400,15 @@ DevOps Engineer يعمل بالفعل ولكن يريد إتقان Kubernetes و
             <path d="M5 12l5 5l10 -10" />
           </svg>
         </span>
-        <p>خدمة جاهزة للإنتاج ومُجهزة بتقنية Docker في حسابك على GitHub.</p>
+        <p>Debugging و container troubleshooting</p>
       </div>
 
     </div>
   </div>
         </div>
+
+
+
         <!-- Card 3-->
 
           <div class="col-12 col-md-6 col-lg-4">
@@ -402,25 +417,33 @@ DevOps Engineer يعمل بالفعل ولكن يريد إتقان Kubernetes و
     <span class="card-number">03</span>
 
     <div class="card-header">
-      <h5>CI/CD</h5>
+      <h5>CI/CD Pipelines</h5>
 
       <span class="badge-card">
-        <span class="gradient-text">الأسبوع 4-5</span>
+        <span class="gradient-text">Week 4-5</span>
       </span>
 
-      <p class="card-desc">في نهاية هذه المرحلة ستنفّذ مشروعًا عمليًا</p>
+      <p class="card-desc">Automation from Code to Deployment</p>
     </div>
 
     <div class="custom-card-content">
 
       <div class="custom-item">
         <span class="step-circle">1</span>
-        <p>بناء Pipeline باستخدام CI/CD (GitHub Actions / GitLab CI / Jenkins، إلخ). </p>
+        <p>CI/CD باستخدام GitHub Actions</p>
       </div>
 
       <div class="custom-item">
         <span class="step-circle">2</span>
-        <p>الاختبارات التلقائية وبناء الصور والنشر إلى بيئة الاختبار.</p>
+        <p>Jenkins pipelines من البداية حتى Production</p>
+      </div>
+      <div class="custom-item">
+        <span class="step-circle">3</span>
+        <p>Automating build, test, و deployment workflows</p>
+      </div>
+      <div class="custom-item">
+        <span class="step-circle">4</span>
+        <p>Secrets management داخل CI/CD pipelines</p>
       </div>
 
       <div class="custom-item done">
@@ -431,11 +454,19 @@ DevOps Engineer يعمل بالفعل ولكن يريد إتقان Kubernetes و
             <path d="M5 12l5 5l10 -10" />
           </svg>
         </span>
-        <p>مسار عمل فعال من الالتزام إلى النشر</p>
+        <p>Environment separation و release strategies</p>
       </div>
 
     </div>
   </div>
+        </div>
+
+        <!-- PHASE 2 HEADER -->
+        <div class="col-12">
+          <div style="text-align: right; margin: 40px 0;">
+            <h3 style="color: #4B8DFF; font-weight: 800; font-size: 24px; margin-bottom: 8px;">Phase 2 — Kubernetes & Production</h3>
+            <p style="color: #888; font-size: 16px; margin: 0;">Running Applications at Scale</p>
+          </div>
         </div>
        
         <!-- Card 4 -->
@@ -445,25 +476,30 @@ DevOps Engineer يعمل بالفعل ولكن يريد إتقان Kubernetes و
     <span class="card-number">04</span>
 
     <div class="card-header">
-      <h5>Kubernetes</h5>
+      <h5>Kubernetes Core</h5>
 
       <span class="badge-card">
-        <span class="gradient-text">الأسبوع  6-7</span>
+        <span class="gradient-text">Week 6</span>
       </span>
 
-      <p class="card-desc">في نهاية هذه المرحلة ستنفّذ مشروعًا عمليًا</p>
+      <p class="card-desc">Kubernetes architecture و core components</p>
     </div>
 
     <div class="custom-card-content">
 
       <div class="custom-item">
         <span class="step-circle">1</span>
-        <p>نشر تطبيقك على مجموعة Kubernetes باستخدام عمليات النشر والخدمات</p>
+        <p>Kubernetes architecture و core components</p>
       </div>
 
       <div class="custom-item">
         <span class="step-circle">2</span>
-        <p>إعداد Configure Ingress, environment variables, and secrets.</p>
+        <p>Pods, Deployments, Services</p>
+      </div>
+
+      <div class="custom-item">
+        <span class="step-circle">3</span>
+        <p>Kubernetes networking basics</p>
       </div>
 
       <div class="custom-item done">
@@ -474,12 +510,13 @@ DevOps Engineer يعمل بالفعل ولكن يريد إتقان Kubernetes و
             <path d="M5 12l5 5l10 -10" />
           </svg>
         </span>
-        <p>تطبيق يعمل بثبات على Kubernetes</p>
+        <p>Managing workloads</p>
       </div>
 
     </div>
   </div>
         </div>
+
         <!-- Card 5 -->
          <div class="col-12 col-md-6 col-lg-4">
   <div class="custom-card">
@@ -487,25 +524,35 @@ DevOps Engineer يعمل بالفعل ولكن يريد إتقان Kubernetes و
     <span class="card-number">05</span>
 
     <div class="card-header">
-      <h5>IaC & Observation</h5>
+      <h5>Kubernetes Advanced</h5>
 
       <span class="badge-card">
-        <span class="gradient-text">الأسبوع 8-10</span>
+        <span class="gradient-text">Week 7</span>
       </span>
 
-      <p class="card-desc">في نهاية هذه المرحلة ستنفّذ مشروعًا عمليًا</p>
+      <p class="card-desc">Production-grade Kubernetes</p>
     </div>
 
     <div class="custom-card-content">
 
       <div class="custom-item">
         <span class="step-circle">1</span>
-        <p>استخدم Terraform لتعريف وتوفير البنية التحتية السحابية.</p>
+        <p>Scaling و rolling updates</p>
       </div>
 
       <div class="custom-item">
         <span class="step-circle">2</span>
-        <p>مسار المراقبة الاختياري: التسجيل، والمقاييس، ولوحات المعلومات.</p>
+        <p>ConfigMaps و Secrets</p>
+      </div>
+
+      <div class="custom-item">
+        <span class="step-circle">3</span>
+        <p>Secret management strategies في Kubernetes</p>
+      </div>
+
+      <div class="custom-item">
+        <span class="step-circle">4</span>
+        <p>Storage و persistent volumes</p>
       </div>
 
       <div class="custom-item done">
@@ -516,7 +563,7 @@ DevOps Engineer يعمل بالفعل ولكن يريد إتقان Kubernetes و
             <path d="M5 12l5 5l10 -10" />
           </svg>
         </span>
-        <p>بيئة مُدارة بواسطة Terraform بالإضافة إلى مراقبة اختيارية.</p>
+        <p>Handling failures و troubleshooting</p>
       </div>
 
     </div>
@@ -530,25 +577,35 @@ DevOps Engineer يعمل بالفعل ولكن يريد إتقان Kubernetes و
     <span class="card-number">06</span>
 
     <div class="card-header">
-      <h5> Final Project</h5>
+      <h5>GitOps with Argo CD</h5>
 
       <span class="badge-card">
-        <span class="gradient-text">الأسبوع 10-12</span>
+        <span class="gradient-text">Week 8</span>
       </span>
 
-      <p class="card-desc">في نهاية هذه المرحلة ستنفّذ مشروعًا عمليًا</p>
+      <p class="card-desc">GitOps principles</p>
     </div>
 
     <div class="custom-card-content">
 
       <div class="custom-item">
         <span class="step-circle">1</span>
-        <p>تصميم وبناء منصة مصغرة متكاملة: البنية التحتية، والتطبيق، CI/CD، وKubernetes، والمراقبة.</p>
+        <p>GitOps principles</p>
       </div>
 
       <div class="custom-item">
         <span class="step-circle">2</span>
-        <p>إعداد شرح معماري وعرض توضيحي قصير.</p>
+        <p>Deploying applications باستخدام Argo CD</p>
+      </div>
+
+      <div class="custom-item">
+        <span class="step-circle">3</span>
+        <p>Managing multiple environments</p>
+      </div>
+
+      <div class="custom-item">
+        <span class="step-circle">4</span>
+        <p>Sync strategies و rollback</p>
       </div>
 
       <div class="custom-item done">
@@ -559,21 +616,210 @@ DevOps Engineer يعمل بالفعل ولكن يريد إتقان Kubernetes و
             <path d="M5 12l5 5l10 -10" />
           </svg>
         </span>
-        <p>نظام جاهز للعرض في المقابلات الشخصية.</p>
+        <p>Securing GitOps workflows</p>
       </div>
 
     </div>
   </div>
         </div>
-    
-   
-   
 
-  
+        <!-- Card 7 -->
+         <div class="col-12 col-md-6 col-lg-4">
+  <div class="custom-card">
 
-       
-    
+    <span class="card-number">07</span>
+
+    <div class="card-header">
+      <h5>Service Mesh (Istio)</h5>
+
+      <span class="badge-card">
+        <span class="gradient-text">Week 9</span>
+      </span>
+
+      <p class="card-desc">Quick Intro</p>
+    </div>
+
+    <div class="custom-card-content">
+
+      <div class="custom-item">
+        <span class="step-circle">1</span>
+        <p>What is a Service Mesh and why it matters</p>
       </div>
+
+      <div class="custom-item">
+        <span class="step-circle">2</span>
+        <p>Istio architecture (control plane vs data plane)</p>
+      </div>
+
+      <div class="custom-item">
+        <span class="step-circle">3</span>
+        <p>Traffic management basics (routing, retries, timeouts)</p>
+      </div>
+
+      <div class="custom-item">
+        <span class="step-circle">4</span>
+        <p>mTLS concept and zero-trust overview</p>
+      </div>
+
+      <div class="custom-item done">
+        <span class="step-circle">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+            viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12l5 5l10 -10" />
+          </svg>
+        </span>
+        <p>When to use (and not use) Istio in Production</p>
+      </div>
+
+    </div>
+  </div>
+        </div>
+
+        <!-- Card 8 -->
+         <div class="col-12 col-md-6 col-lg-4">
+  <div class="custom-card">
+
+    <span class="card-number">08</span>
+
+    <div class="card-header">
+      <h5>Terraform (IaC)</h5>
+
+      <span class="badge-card">
+        <span class="gradient-text">Week 10</span>
+      </span>
+
+      <p class="card-desc">Infrastructure after Kubernetes</p>
+    </div>
+
+    <div class="custom-card-content">
+
+      <div class="custom-item">
+        <span class="step-circle">1</span>
+        <p>Provisioning Kubernetes infrastructure using Terraform</p>
+      </div>
+
+      <div class="custom-item">
+        <span class="step-circle">2</span>
+        <p>State management و modules</p>
+      </div>
+
+      <div class="custom-item">
+        <span class="step-circle">3</span>
+        <p>Managing environments باستخدام IaC</p>
+      </div>
+
+      <div class="custom-item done">
+        <span class="step-circle">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+            viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12l5 5l10 -10" />
+          </svg>
+        </span>
+        <p>Infrastructure best practices for Production</p>
+      </div>
+
+    </div>
+  </div>
+        </div>
+
+        <!-- Card 9 -->
+         <div class="col-12 col-md-6 col-lg-4">
+  <div class="custom-card">
+
+    <span class="card-number">09</span>
+
+    <div class="card-header">
+      <h5>Observability</h5>
+
+      <span class="badge-card">
+        <span class="gradient-text">Week 10</span>
+      </span>
+
+      <p class="card-desc">Extra Bonus</p>
+    </div>
+
+    <div class="custom-card-content">
+
+      <div class="custom-item">
+        <span class="step-circle">1</span>
+        <p>Monitoring و logging fundamentals</p>
+      </div>
+
+      <div class="custom-item">
+        <span class="step-circle">2</span>
+        <p>Metrics, alerts, و dashboards</p>
+      </div>
+
+      <div class="custom-item done">
+        <span class="step-circle">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+            viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12l5 5l10 -10" />
+          </svg>
+        </span>
+        <p>Observability in Kubernetes environments</p>
+      </div>
+
+    </div>
+  </div>
+        </div>
+
+        <!-- Card 10 -->
+         <div class="col-12 col-md-6 col-lg-4">
+  <div class="custom-card">
+
+    <span class="card-number">10</span>
+
+    <div class="card-header">
+      <h5>Final Project (Capstone)</h5>
+
+      <span class="badge-card">
+        <span class="gradient-text">Week 11-12</span>
+      </span>
+
+      <p class="card-desc">Production-grade End-to-End Project</p>
+    </div>
+
+    <div class="custom-card-content">
+
+      <div class="custom-item">
+        <span class="step-circle">1</span>
+        <p>End-to-end Production workflow</p>
+      </div>
+
+      <div class="custom-item">
+        <span class="step-circle">2</span>
+        <p>Docker + CI/CD + Kubernetes + Argo CD + Terraform</p>
+      </div>
+
+      <div class="custom-item">
+        <span class="step-circle">3</span>
+        <p>Optional Istio integration</p>
+      </div>
+
+      <div class="custom-item">
+        <span class="step-circle">4</span>
+        <p>Secure secrets handling</p>
+      </div>
+
+      <div class="custom-item done">
+        <span class="step-circle">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+            viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12l5 5l10 -10" />
+          </svg>
+        </span>
+        <p>Project جاهز لـ GitHub و Portfolio</p>
+      </div>
+
+    </div>
+  </div>
+        </div>
+
     </div>
   </section>
 
