@@ -477,7 +477,7 @@ nav {
 }
 
 .hero-description {
-  font-size: clamp(14px, 2vw, 22px);
+  font-size: clamp(18px, 2vw, 22px);
   line-height: 1.6;
   color: #fff;
   margin-bottom: 24px;
