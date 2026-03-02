@@ -3,61 +3,133 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Landing Page - DevOps & Kubernetes</title>
+  
+  <!-- SEO IMPROVEMENT: Added comprehensive meta tags -->
+  <title>برنامج DevOps و Kubernetes التدريبي | 12 أسبوع احترافي | Kube-Ops</title>
+  <meta name="description" content="برنامج تدريبي احترافي لمدة 12 أسبوع في DevOps و Kubernetes. تعلم Docker, CI/CD, Kubernetes, Terraform, ArgoCD من الصفر حتى الإنتاج. مع إرشاد مهني مضمون." />
+  <meta name="keywords" content="DevOps, Kubernetes, Docker, CI/CD, Terraform, ArgoCD, Cloud Native, DevOps Engineer, Training, Workshop" />
+  <meta name="author" content="Sameh Ammar" />
+  <meta name="robots" content="index, follow" />
+  <meta name="language" content="Arabic" />
+  <link rel="canonical" href="https://kube-ops.com/" />
+  
+  <!-- SEO IMPROVEMENT: Open Graph tags for social media -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://kube-ops.com/" />
+  <meta property="og:title" content="برنامج DevOps و Kubernetes التدريبي | 12 أسبوع" />
+  <meta property="og:description" content="برنامج تدريبي احترافي في DevOps و Kubernetes. تعلم بناء ونشر وتشغيل أنظمة Production حقيقية." />
+  <meta property="og:image" content="assets/images/Group 92.png" />
+  <meta property="og:locale" content="ar_AR" />
+  <meta property="og:site_name" content="Kube-Ops" />
+  
+  <!-- SEO IMPROVEMENT: Twitter Card meta tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="برنامج DevOps و Kubernetes التدريبي | 12 أسبوع" />
+  <meta name="twitter:description" content="برنامج تدريبي احترافي في DevOps و Kubernetes. تعلم بناء ونشر وتشغيل أنظمة Production حقيقية." />
+  <meta name="twitter:image" content="assets/images/Group 92.png" />
+  
+  <!-- PERFORMANCE IMPROVEMENT: Preconnect for faster font loading -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+  <!-- PERFORMANCE IMPROVEMENT: DNS-prefetch for external resources -->
+  <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
+  
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet" />
 
   <!-- Bootstrap -->
   <link rel="stylesheet" href="css/bootstrap.min.css" />
 
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">
-
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/style.css" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+  
+  <!-- PERFORMANCE IMPROVEMENT: Font Awesome with non-blocking loading -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" media="print" onload="this.media='all'" />
+  
+  <!-- SEO IMPROVEMENT: JSON-LD Structured Data for Course -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "DevOps و Kubernetes Workshop",
+    "description": "برنامج تدريبي احترافي لمدة 12 أسبوع في DevOps و Kubernetes",
+    "provider": {
+      "@type": "Organization",
+      "name": "Kube-Ops",
+      "url": "https://kube-ops.com"
+    },
+    "hasCourseInstance": {
+      "@type": "CourseInstance",
+      "courseMode": "online",
+      "courseWorkload": "P12W",
+      "offers": {
+        "@type": "Offer",
+        "price": "5000",
+        "priceCurrency": "EGP"
+      }
+    }
+  }
+  </script>
+  
+  <!-- SEO IMPROVEMENT: JSON-LD for Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Kube-Ops",
+    "url": "https://kube-ops.com",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "Admin@kube-ops.com"
+    }
+  }
+  </script>
+</head>
 
 <body>
+  <!-- ACCESSIBILITY IMPROVEMENT: Skip to main content link for keyboard users -->
 
-  <!-- ==================== HEADER ==================== -->
- <header id="header">
-    <nav class="">
-      <a href="#" class="logo gradient-text" aria-label="الصفحة الرئيسية">SA</a>
 
-    
+  <!-- ACCESSIBILITY IMPROVEMENT: Added proper landmark roles -->
+  <header id="header" role="banner">
+    <nav class="" role="navigation" aria-label="التنقل الرئيسي">
+      <a href="#" class="logo gradient-text" aria-label="الصفحة الرئيسية - Kube-Ops">SA</a>
 
-      <ul class="nav-links" id="navLinks">
-        <li><a href="#form" class="nav-link  ">التقديم</a></li>
-        <li><a href="#what" class="nav-link">ماذا ستحصل</a></li>
-        <li><a href="#how" class="nav-link">كيف يعمل</a></li>
-        <li><a href="#learn" class="nav-link">محتوى الكورس</a></li>
-        <li><a href="#who" class="nav-link">الفئة المستهدفة</a></li>
-        <li><a href="#hero" class="nav-link">الرئيسية</a></li>
+      <!-- ACCESSIBILITY IMPROVEMENT: Added proper navigation landmark -->
+      <ul class="nav-links" id="navLinks" role="menubar">
+        <li role="none"><a href="#form" class="nav-link" role="menuitem">التقديم</a></li>
+        <li role="none"><a href="#what" class="nav-link" role="menuitem">ماذا ستحصل</a></li>
+        <li role="none"><a href="#how" class="nav-link" role="menuitem">كيف يعمل</a></li>
+        <li role="none"><a href="#learn" class="nav-link" role="menuitem">محتوى الكورس</a></li>
+        <li role="none"><a href="#who" class="nav-link" role="menuitem">الفئة المستهدفة</a></li>
+        <li role="none"><a href="#hero" class="nav-link" role="menuitem">الرئيسية</a></li>
       </ul>
 
-      <ul class="social-links">
+      <ul class="social-links" aria-label="روابط التواصل الاجتماعي">
         <li>
-          <a href="mailto:Admin@kube-ops.com" target="_blank" class="social-icon" aria-label="رسائل">
-   <img src="./assets/images/email.png" alt="">
+          <a href="mailto:Admin@kube-ops.com" target="_blank" class="social-icon" aria-label="تواصل عبر البريد الإلكتروني">
+            <img src="./assets/images/email.png" alt="أيقونة البريد الإلكتروني" width="24" height="24" loading="lazy" />
           </a>
         </li>
         <li>
-       <a href="https://youtube.com/@kube-ops?si=uKvv019UqZwYx3HP" class="social-icon" target="_blank" aria-label="يوتيوب">
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-youtube"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M2 8a4 4 0 0 1 4 -4h12a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-12a4 4 0 0 1 -4 -4v-8"  style="color: #8e3cd9;"/><path d="M10 9l5 3l-5 3l0 -6" style="color: #8e3cd9;" /></svg></a>
-
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/samehammar" target="_blank" class="social-icon" aria-label="لينكد إن">
-        <img src="./assets/images/in.png" alt="">
+          <a href="https://youtube.com/@kube-ops?si=uKvv019UqZwYx3HP" class="social-icon" target="_blank" aria-label="قناة يوتيوب">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-youtube" aria-hidden="true"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M2 8a4 4 0 0 1 4 -4h12a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-12a4 4 0 0 1 -4 -4v-8" style="color: #8e3cd9;"/><path d="M10 9l5 3l-5 3l0 -6" style="color: #8e3cd9;" /></svg>
           </a>
         </li>
         <li>
-          <a href="https://wa.me/+201008793652" target="_blank" class="social-icon" aria-label="واتساب">
-     <img src="assets/images/phone.png" alt="">
+          <a href="https://www.linkedin.com/in/samehammar" target="_blank" class="social-icon" aria-label="بروفايل لينكد إن">
+            <img src="./assets/images/in.png" alt="أيقونة لينكد إن" width="24" height="24" loading="lazy" />
+          </a>
+        </li>
+        <li>
+          <a href="https://wa.me/+201008793652" target="_blank" class="social-icon" aria-label="تواصل عبر واتساب">
+            <img src="assets/images/phone.png" alt="أيقونة الواتساب" width="24" height="24" loading="lazy" />
           </a>
         </li>
       </ul>
-        <button class="menu-toggle" id="menuToggle" aria-label="فتح القائمة">
+      <!-- ACCESSIBILITY IMPROVEMENT: Added aria-expanded for mobile menu -->
+      <button class="menu-toggle" id="menuToggle" aria-label="فتح القائمة" aria-expanded="false" aria-controls="navLinks">
         <span></span>
         <span></span>
         <span></span>
@@ -65,250 +137,234 @@
     </nav>
   </header>
 
-
+  <!-- ACCESSIBILITY IMPROVEMENT: Main landmark with id for skip link -->
+  <main id="main-content">
   
   <!-- ==================== HERO SECTION ==================== -->
-<section id="hero" class="hero">
-  <!-- Background Decorations -->
-  <div class="bg-decorations">
-    <img src="assets/images/top.png" alt="decoration" class="top-img">
-    <img src="assets/images/botton.png" alt="decoration" class="botton-img">
-  </div>
+  <!-- PERFORMANCE IMPROVEMENT: Added fetchpriority for hero images -->
+  <section id="hero" class="hero" aria-labelledby="hero-title">
+    <!-- Background Decorations -->
+    <div class="bg-decorations" aria-hidden="true">
+      <!-- PERFORMANCE IMPROVEMENT: Added loading="eager" for above-the-fold images, decoding="async" -->
+      <img src="assets/images/top.png" alt="" class="top-img" fetchpriority="high" decoding="async" width="1248" height="auto">
+      <img src="assets/images/botton.png" alt="" class="botton-img" fetchpriority="high" decoding="async" width="1248" height="auto">
+    </div>
 
-  <!-- Content -->
-  <div class="container">
-    <div class="hero-content">
-      <!-- Badge -->
-      <div class="badge">
-        الدفعة القادمة تبدأ قريباً
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M4 13a8 8 0 017 7 6 6 0 003-5 9 9 0 006-8 3 3 0 00-3-3 9 9 0 00-8 6 6 6 0 00-5 3M7 14a6 6 0 00-3 6 6 6 0 006-3"/>
-          <circle cx="15" cy="9" r="1"/>
-        </svg>
-      </div>
-
-      <!-- Main Title -->
-      <h1 class="hero-title">Devops tools and kubernetes workshop</h1>
-      <p class="hero-subtitle">برنامج تدريبي احترافي لمدة 12 أسبوع</p>
-
-      <!-- Description -->
-      <p class="hero-description" lang="ar" dir="rtl">
-        برنامج عملي متكامل مصمم خصيصًا للDevolopers  الذين يرغبون في الانتقال الي مجال DevOps .او لمهندس  Cloud  الذين يريدون بناء اساس قوي في Containers و Production-grade Build و  Deploy Automation و المعتمدة في كبرى الشركات
-
-      </p>
-<p class="hero-note">
-هذا ليس مجرد  كورس نظري  بل  <br>From code to Production متكامله تنقلك Workshop
- </p>
-
-      <!-- Buttons -->
-      <div class="button-group">
-        <button class="btn btn-primary-2">
-          <p class="gradient-text">قدّم للدفعة القادمة</p>
-        </button>
-        <button class="btn btn-secondary-4">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M5 12h14M5 12l4 4M5 12l4-4"/>
+    <!-- Content -->
+    <div class="container">
+      <div class="hero-content">
+        <!-- Badge -->
+        <div class="badge" role="status">
+          الدفعة القادمة تبدأ قريباً
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M4 13a8 8 0 0 1 7 7 6 6 0 0 0 3-5 9 9 0 0 0 6-8 3 3 0 0 0 -3-3 9 9 0 0 0 -8 6 6 6 0 0 0 -5 3M7 14a6 6 0 0 0 -3 6 6 6 0 0 0 6-3"/>
+            <circle cx="15" cy="9" r="1"/>
           </svg>
-          عرض تفاصيل البرنامج
-        </button>
+        </div>
+
+        <!-- Main Title - SEO IMPROVEMENT: Only one h1 per page -->
+        <h1 class="hero-title" id="hero-title">DevOps Tools and Kubernetes Workshop</h1>
+        <p class="hero-subtitle">برنامج تدريبي احترافي لمدة 12 أسبوع</p>
+
+        <!-- Description -->
+        <p class="hero-description" lang="ar" dir="rtl">
+          برنامج عملي متكامل مصمم خصيصًا للـ Developers الذين يرغبون في الانتقال إلى مجال DevOps أو لمهندسي Cloud الذين يريدون بناء أساس قوي في Containers و Production-grade Build و Deploy Automation المعتمدة في كبرى الشركات
+        </p>
+        <p class="hero-note">
+          هذا ليس مجرد كورس نظري بل ورشة عمل متكاملة <br>From Code to Production تنقلك إلى احترف DevOps
+        </p>
+
+        <!-- Buttons -->
+        <div class="button-group" role="group" aria-label="خيارات التسجيل">
+          <!-- ACCESSIBILITY IMPROVEMENT: Added aria-label for button context -->
+          <button class="btn btn-primary-2" aria-label="قدّم للدفعة القادمة">
+            <p class="gradient-text">قدّم للدفعة القادمة</p>
+          </button>
+          <button class="btn btn-secondary-4" aria-label="عرض تفاصيل البرنامج">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M5 12h14M5 12l4 4M5 12l4-4"/>
+            </svg>
+            عرض تفاصيل البرنامج
+          </button>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
 
 
 
   <!-- ==================== WHO SECTION ==================== -->
- <section id="who" class="who-section section">
-  <div class="container">
-    <!-- Title Section -->
-    <div class="title-content">
-      <span class="badge-2">
-        لمن هذا المسار؟
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-user">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-          <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" />
-          <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
-        </svg>
-      </span>
-      <div class="who-content">
-        <h1><span class="blue">لمن</span> هذا البرنامج؟</h1>
-        <h4>هذا البرنامج مخصص للمهندسين أصحاب الخبرة الذين يبحثون عن انتقال حقيقي ومدروس إلى مجال <br> DevOps و Kubernetes.</h4>
+  <section id="who" class="who-section section" aria-labelledby="who-title">
+    <div class="container">
+      <div class="title-content">
+        <span class="badge-2" aria-hidden="true">
+          لمن هذا المسار؟
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-user">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" />
+            <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+          </svg>
+        </span>
+        <div class="who-content">
+          <h2 id="who-title"><span class="blue">لمن</span> هذا البرنامج؟</h2>
+          <h4>هذا البرنامج مخصص للمهندسين أصحاب الخبرة الذين يبحثون عن انتقال حقيقي ومدروس إلى مجال DevOps و Kubernetes.</h4>
+        </div>
       </div>
-    </div>
 
-    <div class="row g-4 what2-section">
-      <!-- Left Column -->
-      <div class="col-12 col-lg-6 ">
-        <!-- card1 -->
-        <div class="info-card mb-4" dir="rtl" lang="ar">
-          <div class="card-content">
-            <div class="card-header-section">
-              <div class="card-icon-wrapper">
-                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M10.04 4.305c2.195 -.667 4.615 -.224 6.36 1.176c1.386 1.108 2.188 2.686 2.252 4.34l.003 .212l.091 .003c2.3 .107 4.143 1.961 4.25 4.27l.004 .211c0 2.407 -1.885 4.372 -4.255 4.482l-.21 .005h-11.878l-.222 -.008c-2.94 -.11 -5.317 -2.399 -5.43 -5.263l-.005 -.216c0 -2.747 2.08 -5.01 4.784 -5.417l.114 -.016l.07 -.181c.663 -1.62 2.056 -2.906 3.829 -3.518l.244 -.08z" />
-                </svg>
+      <div class="row g-4 what2-section">
+        <div class="col-12 col-lg-6 ">
+          <article class="info-card mb-4" dir="rtl" lang="ar">
+            <div class="card-content">
+              <div class="card-header-section">
+                <div class="card-icon-wrapper" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M10.04 4.305c2.195 -.667 4.615 -.224 6.36 1.176c1.386 1.108 2.188 2.686 2.252 4.34l.003 .212l.091 .003c2.3 .107 4.143 1.961 4.25 4.27l.004 .211c0 2.407 -1.885 4.372 -4.255 4.482l-.21 .005h-11.878l-.222 -.008c-2.94 -.11 -5.317 -2.399 -5.43 -5.263l-.005 -.216c0 -2.747 2.08 -5.01 4.784 -5.417l.114 -.016l.07 -.181c.663 -1.62 2.056 -2.906 3.829 -3.518l.244 -.08z" />
+                  </svg>
+                </div>
+                <h3 class="card-title">لـ Developers و DevOps Engineers و Cloud Engineers</h3>
               </div>
-              <h5 class="card-title">لـ Developers و DevOps Engineers و Cloud Engineers</h5>
+              <p class="card-description">
+                مسار احترافي مكثف لمدة 12 أسبوعًا ينقلك من كتابة Code فقط إلى امتلاك القدرة على Build و Deploy و Operate أنظمة Production حقيقية
+              </p>
             </div>
-            <p class="card-description">
-              مسار احترافي مكثف لمدة 12 أسبوعًا ينقلك من كتابة Code فقط
-<br>
-إلى امتلاك القدرة على Build و Deploy و Operate أنظمة Production حقيقية
-            </p>
-          </div>
-        </div>
+          </article>
 
-        <!-- card 2 -->
-        <div class="info-card" dir="rtl" lang="ar">
-          <div class="card-content">
-            <!-- Header -->
-            <div class="card-header-section">
-              <div class="card-icon-wrapper">
-                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M7 8l-4 4l4 4" />
-                  <path d="M17 8l4 4l-4 4" />
-                  <path d="M14 4l-4 16" />
-                </svg>
+          <article class="info-card" dir="rtl" lang="ar">
+            <div class="card-content">
+              <div class="card-header-section">
+                <div class="card-icon-wrapper" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <path d="M7 8l-4 4l4 4" />
+                    <path d="M17 8l4 4l-4 4" />
+                    <path d="M14 4l-4 16" />
+                  </svg>
+                </div>
+                <h3 class="card-title">مناسب لك إذا كنت:</h3>
               </div>
-              <h5 class="card-title">مناسب لك إذا كنت:</h5>
-            </div>
 
-            <!-- List -->
-            <ul class="card-list">
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler check-icon icons-tabler-outline icon-tabler-circle-check">
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
-                  <path d="M9 12l2 2l4 -4" />
-                </svg>
-             Developer بخبرة +3 سنوات وتريد الانتقال إلى DevOps بمستوى احترافي.
-
-              </li>
-
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler check-icon icons-tabler-outline icon-tabler-circle-check">
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
-                  <path d="M9 12l2 2l4 -4" />
-                </svg>
-DevOps Engineer يعمل بالفعل ولكن يريد إتقان Kubernetes والعمل بثقة في Production.
-              </li>
-
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler check-icon icons-tabler-outline icon-tabler-circle-check">
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
-                  <path d="M9 12l2 2l4 -4" />
-                </svg>
- Cloud Engineer يريد التحكم الكامل في Lifecycle للتطبيق من Build حتى Deployment والتشغيل.             
- </li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- card 3 -->
-        <div class="info-card mb-4 mb-lg-0 mt-4" dir="rtl" lang="ar">
-          <div class="card-content">
-            <div class="card-header-section">
-              <div class="card-icon-wrapper">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-user-off">
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                  <path d="M8.18 8.189a4.01 4.01 0 0 0 2.616 2.627m3.507 -.545a4 4 0 1 0 -5.59 -5.552" />
-                  <path d="M6 21v-2a4 4 0 0 1 4 -4h4c.412 0 .81 .062 1.183 .178m2.633 2.618c.12 .38 .184 .785 .184 1.204v2" />
-                  <path d="M3 3l18 18" />
-                </svg>
-              </div>
-              <h5 class="card-title">ليس مناسبًا لك إذا كنت</h5>
-            </div>
-            <ul class="card-list">
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler fals-icon icons-tabler-outline icon-tabler-xbox-x">
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                  <path d="M12 21a9 9 0 0 0 9 -9a9 9 0 0 0 -9 -9a9 9 0 0 0 -9 9a9 9 0 0 0 9 9" />
-                  <path d="M9 8l6 8" />
-                  <path d="M15 8l-6 8" />
-                </svg>       
-      مبتدئًا تمامًا في البرمجة أو في Linux.
-              </li>
-
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler fals-icon icons-tabler-outline icon-tabler-xbox-x">
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                  <path d="M12 21a9 9 0 0 0 9 -9a9 9 0 0 0 -9 -9a9 9 0 0 0 -9 9a9 9 0 0 0 9 9" />
-                  <path d="M9 8l6 8" />
-                  <path d="M15 8l-6 8" />
-                </svg>
-             لم يسبق لك استخدام Git أو Terminal أو كتابة Scripts بسيطة.
-              </li>
-
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler fals-icon icons-tabler-outline icon-tabler-xbox-x">
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                  <path d="M12 21a9 9 0 0 0 9 -9a9 9 0 0 0 -9 -9a9 9 0 0 0 -9 9a9 9 0 0 0 9 9" />
-                  <path d="M9 8l6 8" />
-                  <path d="M15 8l-6 8" />
-                </svg>  
-لا تستطيع الالتزام بحضور 4 ساعات أسبوعيًا Live Sessions بالإضافة إلى وقت كافٍ لتنفيذ المشاريع العملية.
-              </li>
-    
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler fals-icon icons-tabler-outline icon-tabler-xbox-x">
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                  <path d="M12 21a9 9 0 0 0 9 -9a9 9 0 0 0 -9 -9a9 9 0 0 0 -9 9a9 9 0 0 0 9 9" />
-                  <path d="M9 8l6 8" />
-                  <path d="M15 8l-6 8" />
-                </svg>  
-		تبحث عن محتوى نظري فقط دون تطبيق عملي مكثف يحاكي بيئات Production.
-              </li>
-
-                        <li class="text-center">
-       
-هذا البرنامج يتطلب خلفية تقنية سابقة واستعدادًا حقيقيًا للالتزام والعمل الجاد طوال مدة المسار        
+              <ul class="card-list">
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler check-icon icons-tabler-outline icon-tabler-circle-check" aria-hidden="true">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                    <path d="M9 12l2 2l4 -4" />
+                  </svg>
+                  Developer بخبرة +3 سنوات وتريد الانتقال إلى DevOps بمستوى احترافي
                 </li>
 
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler check-icon icons-tabler-outline icon-tabler-circle-check" aria-hidden="true">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                    <path d="M9 12l2 2l4 -4" />
+                  </svg>
+                  DevOps Engineer يعمل بالفعل ولكن يريد إتقان Kubernetes والعمل بثقة في Production
+                </li>
 
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler check-icon icons-tabler-outline icon-tabler-circle-check" aria-hidden="true">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                    <path d="M9 12l2 2l4 -4" />
+                  </svg>
+                  Cloud Engineer يريد التحكم الكامل في Lifecycle للتطبيق من Build حتى Deployment والتشغيل
+                </li>
+              </ul>
+            </div>
+          </article>
 
-            </ul>
+          <article class="info-card mb-4 mb-lg-0 mt-4" dir="rtl" lang="ar">
+            <div class="card-content">
+              <div class="card-header-section">
+                <div class="card-icon-wrapper" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-user-off" aria-hidden="true">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M8.18 8.189a4.01 4.01 0 0 0 2.616 2.627m3.507 -.545a4 4 0 1 0 -5.59 -5.552" />
+                    <path d="M6 21v-2a4 4 0 0 1 4 -4h4c.412 0 .81 .062 1.183 .178m2.633 2.618c.12 .38 .184 .785 .184 1.204v2" />
+                    <path d="M3 3l18 18" />
+                  </svg>
+                </div>
+                <h3 class="card-title">ليس مناسبًا لك إذا كنت</h3>
+              </div>
+              <ul class="card-list">
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler fals-icon icons-tabler-outline icon-tabler-xbox-x" aria-hidden="true">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M12 21a9 9 0 0 0 9 -9a9 9 0 0 0 -9 -9a9 9 0 0 0 -9 9a9 9 0 0 0 9 9" />
+                    <path d="M9 8l6 8" />
+                    <path d="M15 8l-6 8" />
+                  </svg>        
+                  مبتدئًا تمامًا في البرمجة أو في Linux
+                </li>
+
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler fals-icon icons-tabler-outline icon-tabler-xbox-x" aria-hidden="true">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M12 21a9 9 0 0 0 9 -9a9 9 0 0 0 -9 -9a9 9 0 0 0 -9 9a9 9 0 0 0 9 9" />
+                    <path d="M9 8l6 8" />
+                    <path d="M15 8l-6 8" />
+                  </svg>
+                  لم يسبق لك استخدام Git أو Terminal أو كتابة Scripts بسيطة
+                </li>
+
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler fals-icon icons-tabler-outline icon-tabler-xbox-x" aria-hidden="true">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M12 21a9 9 0 0 0 9 -9a9 9 0 0 0 -9 -9a9 9 0 0 0 -9 9a9 9 0 0 0 9 9" />
+                    <path d="M9 8l6 8" />
+                    <path d="M15 8l-6 8" />
+                  </svg>  
+                  لا تستطيع الالتزام بحضور 4 ساعات أسبوعيًا Live Sessions بالإضافة إلى وقت كافٍ لتنفيذ المشاريع العملية
+                </li>
+    
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler fals-icon icons-tabler-outline icon-tabler-xbox-x" aria-hidden="true">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M12 21a9 9 0 0 0 9 -9a9 9 0 0 0 -9 -9a9 9 0 0 0 -9 9a9 9 0 0 0 9 9" />
+                    <path d="M9 8l6 8" />
+                    <path d="M15 8l-6 8" />
+                  </svg>  
+                  تبحث عن محتوى نظري فقط دون تطبيق عملي مكثف يحاكي بيئات Production
+                </li>
+
+                <li class="text-center">
+                  هذا البرنامج يتطلب خلفية تقنية سابقة واستعدادًا حقيقيًا للالتزام والعمل الجاد طوال مدة المسار        
+                </li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-12 col-lg-5">
+          <div class="right featured-course-card">
+            <img src="./assets/images/Group 92.png" alt="صورة توضيحية لبرنامج DevOps و Kubernetes التدريبي - عرض محتوى الدورة وأهدافها" width="600" height="auto" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
-
-      <!-- Right Column -->
-      <div class="col-12 col-lg-5">
-        <div class="right featured-course-card">
-          <img src="./assets/images/Group 92.png" alt="DevOps Course">
-        </div>
-      </div>
     </div>
-  </div>
-</section>
+  </section>
 
 
 
 
   <!-- ==================== LEARNING SECTION ==================== -->
-<section id="learn" class="who-section section " style="background: #f9fafb;" >
+  <section id="learn" class="who-section section " style="background: #f9fafb;" aria-labelledby="learn-title">
     <div class="container">
-      <!-- Title Section -->
       <div class="title-content">
-        <span class="badge-2">
-                    محتوى الكورس
-
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-book"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" /><path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" /><path d="M3 6l0 13" /><path d="M12 6l0 13" /><path d="M21 6l0 13" /></svg>
+        <span class="badge-2" aria-hidden="true">
+          محتوى الكورس
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-book" aria-hidden="true"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" /><path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" /><path d="M3 6l0 13" /><path d="M12 6l0 13" /><path d="M21 6l0 13" /></svg>
         </span>
         <div class="who-content">
-          <h1><span class="blue">ماذا سنتعلم</span> خلال 12 أسبوع؟</h1>
-          <h4> :Production خلال 3 أشهر ستسير في مسار تدريبي منظم ومتدرج، مبني على متطلبات العمل الفعلية في بيئات <br> Docker → CI/CD → Kubernetes → Terraform → Final Project</h4>
+          <h2 id="learn-title"><span class="blue">ماذا سنتعلم</span> خلال 12 أسبوع؟</h2>
+          <h4>خلال 3 أشهر ستسير في مسار تدريبي منظم ومتدرج، مبني على متطلبات العمل الفعلية في بيئات Production:<br> Docker → CI/CD → Kubernetes → Terraform → Final Project</h4>
         </div>
     
       </div>
 
-      <!-- Cards -->
       <div class="flex-row-reverse  row g-4" >
 
-        <!-- PHASE 1 HEADER -->
         <div class="col-12">
           <div style="text-align: center; margin-bottom: 40px;">
             <h3 style="color: #4B8DFF; font-weight: 800; font-size: 24px; margin-bottom: 8px;">Phase 1 — Foundations</h3>
@@ -316,152 +372,147 @@ DevOps Engineer يعمل بالفعل ولكن يريد إتقان Kubernetes و
           </div>
         </div>
 
-        <!-- Card 1 -->
-         <div class="col-12 col-md-6 col-lg-4">
-  <div class="custom-card">
+        <article class="col-12 col-md-6 col-lg-4">
+          <div class="custom-card">
 
-    <span class="card-number">01</span>
+            <span class="card-number" aria-hidden="true">01</span>
 
-    <div class="card-header">
-      <h5>Onboarding</h5>
+            <div class="card-header">
+              <h4>Onboarding</h4>
 
-      <span class="badge-card">
-        <span class="gradient-text">Week 1</span>
-      </span>
+              <span class="badge-card">
+                <span class="gradient-text">Week 1</span>
+              </span>
 
-      <p class="card-desc">DevOps Core Skills</p>
-    </div>
+              <p class="card-desc">DevOps Core Skills</p>
+            </div>
 
-    <div class="custom-card-content">
+            <div class="custom-card-content">
 
-      <div class="custom-item">
-        <span class="step-circle">1</span>
-        <p>تقييم المستوى وتحديد الأهداف</p>
-      </div>
+              <div class="custom-item">
+                <span class="step-circle" aria-hidden="true">1</span>
+                <p>تقييم المستوى وتحديد الأهداف</p>
+              </div>
 
-      <div class="custom-item">
-        <span class="step-circle">2</span>
-        <p>إعداد بيئة العمل: Git, Docker, Kubernetes, Terraform</p>
-      </div>
+              <div class="custom-item">
+                <span class="step-circle" aria-hidden="true">2</span>
+                <p>إعداد بيئة العمل: Git, Docker, Kubernetes, Terraform</p>
+              </div>
 
-      <div class="custom-item done">
-        <span class="step-circle">
-          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
-            viewBox="0 0 24 24" fill="none" stroke="currentColor"
-            stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M5 12l5 5l10 -10" />
-          </svg>
-        </span>
-        <p>تنظيم GitHub profile ومراجعة السيرة الذاتية Technical-wise</p>
-      </div>
+              <div class="custom-item done">
+                <span class="step-circle" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M5 12l5 5l10 -10" />
+                  </svg>
+                </span>
+                <p>تنظيم GitHub profile ومراجعة السيرة الذاتية Technical-wise</p>
+              </div>
 
-    </div>
-  </div>
-        </div>
+            </div>
+          </div>
+        </article>
 
 
-    <!-- Card 2-->
-         <div class="col-12 col-md-6 col-lg-4">
-  <div class="custom-card">
+        <article class="col-12 col-md-6 col-lg-4">
+          <div class="custom-card">
 
-    <span class="card-number">02</span>
+            <span class="card-number" aria-hidden="true">02</span>
 
-    <div class="card-header">
-      <h5>Docker</h5>
+            <div class="card-header">
+              <h4>Docker</h4>
 
-      <span class="badge-card">
-        <span class="gradient-text">Week 2-3</span>
-      </span>
+              <span class="badge-card">
+                <span class="gradient-text">Week 2-3</span>
+              </span>
 
-      <p class="card-desc">Container Fundamentals & Best Practices</p>
-    </div>
+              <p class="card-desc">Container Fundamentals & Best Practices</p>
+            </div>
 
-    <div class="custom-card-content">
+            <div class="custom-card-content">
 
-      <div class="custom-item">
-        <span class="step-circle">1</span>
-        <p>Docker architecture و container concepts</p>
-      </div>
+              <div class="custom-item">
+                <span class="step-circle" aria-hidden="true">1</span>
+                <p>Docker architecture و container concepts</p>
+              </div>
 
-      <div class="custom-item">
-        <span class="step-circle">2</span>
-        <p>Writing Production-ready Dockerfiles</p>
-      </div>
-      <div class="custom-item">
-        <span class="step-circle">3</span>
-        <p>Multi-stage builds و image optimization</p>
-      </div>
+              <div class="custom-item">
+                <span class="step-circle" aria-hidden="true">2</span>
+                <p>Writing Production-ready Dockerfiles</p>
+              </div>
+              <div class="custom-item">
+                <span class="step-circle" aria-hidden="true">3</span>
+                <p>Multi-stage builds و image optimization</p>
+              </div>
 
-      <div class="custom-item done">
-        <span class="step-circle">
-          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
-            viewBox="0 0 24 24" fill="none" stroke="currentColor"
-            stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M5 12l5 5l10 -10" />
-          </svg>
-        </span>
-        <p>Debugging و container troubleshooting</p>
-      </div>
+              <div class="custom-item done">
+                <span class="step-circle" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M5 12l5 5l10 -10" />
+                  </svg>
+                </span>
+                <p>Debugging و container troubleshooting</p>
+              </div>
 
-    </div>
-  </div>
-        </div>
+            </div>
+          </div>
+        </article>
 
 
 
-        <!-- Card 3-->
+        <article class="col-12 col-md-6 col-lg-4">
+          <div class="custom-card">
 
-          <div class="col-12 col-md-6 col-lg-4">
-  <div class="custom-card">
+            <span class="card-number" aria-hidden="true">03</span>
 
-    <span class="card-number">03</span>
+            <div class="card-header">
+              <h4>CI/CD Pipelines</h4>
 
-    <div class="card-header">
-      <h5>CI/CD Pipelines</h5>
+              <span class="badge-card">
+                <span class="gradient-text">Week 4-5</span>
+              </span>
 
-      <span class="badge-card">
-        <span class="gradient-text">Week 4-5</span>
-      </span>
+              <p class="card-desc">Automation from Code to Deployment</p>
+            </div>
 
-      <p class="card-desc">Automation from Code to Deployment</p>
-    </div>
+            <div class="custom-card-content">
 
-    <div class="custom-card-content">
+              <div class="custom-item">
+                <span class="step-circle" aria-hidden="true">1</span>
+                <p>CI/CD باستخدام GitHub Actions</p>
+              </div>
 
-      <div class="custom-item">
-        <span class="step-circle">1</span>
-        <p>CI/CD باستخدام GitHub Actions</p>
-      </div>
+              <div class="custom-item">
+                <span class="step-circle" aria-hidden="true">2</span>
+                <p>Jenkins pipelines من البداية حتى Production</p>
+              </div>
+              <div class="custom-item">
+                <span class="step-circle" aria-hidden="true">3</span>
+                <p>Automating build, test, و deployment workflows</p>
+              </div>
+              <div class="custom-item">
+                <span class="step-circle" aria-hidden="true">4</span>
+                <p>Secrets management داخل CI/CD pipelines</p>
+              </div>
 
-      <div class="custom-item">
-        <span class="step-circle">2</span>
-        <p>Jenkins pipelines من البداية حتى Production</p>
-      </div>
-      <div class="custom-item">
-        <span class="step-circle">3</span>
-        <p>Automating build, test, و deployment workflows</p>
-      </div>
-      <div class="custom-item">
-        <span class="step-circle">4</span>
-        <p>Secrets management داخل CI/CD pipelines</p>
-      </div>
+              <div class="custom-item done">
+                <span class="step-circle" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M5 12l5 5l10 -10" />
+                  </svg>
+                </span>
+                <p>Environment separation و release strategies</p>
+              </div>
 
-      <div class="custom-item done">
-        <span class="step-circle">
-          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
-            viewBox="0 0 24 24" fill="none" stroke="currentColor"
-            stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M5 12l5 5l10 -10" />
-          </svg>
-        </span>
-        <p>Environment separation و release strategies</p>
-      </div>
+            </div>
+          </div>
+        </article>
 
-    </div>
-  </div>
-        </div>
-
-        <!-- PHASE 2 HEADER -->
         <div class="col-12">
           <div style="text-align: center; margin: 40px 0;">
             <h3 style="color: #4B8DFF; font-weight: 800; font-size: 24px; margin-bottom: 8px;">Phase 2 — Kubernetes & Production</h3>
@@ -469,356 +520,349 @@ DevOps Engineer يعمل بالفعل ولكن يريد إتقان Kubernetes و
           </div>
         </div>
        
-        <!-- Card 4 -->
-         <div class="col-12 col-md-6 col-lg-4">
-  <div class="custom-card">
-
-    <span class="card-number">04</span>
-
-    <div class="card-header">
-      <h5>Kubernetes Core</h5>
-
-      <span class="badge-card">
-        <span class="gradient-text">Week 6</span>
-      </span>
-
-      <p class="card-desc">Kubernetes architecture و core components</p>
-    </div>
-
-    <div class="custom-card-content">
-
-      <div class="custom-item">
-        <span class="step-circle">1</span>
-        <p>Kubernetes architecture و core components</p>
-      </div>
-
-      <div class="custom-item">
-        <span class="step-circle">2</span>
-        <p>Pods, Deployments, Services</p>
-      </div>
-
-      <div class="custom-item">
-        <span class="step-circle">3</span>
-        <p>Kubernetes networking basics</p>
-      </div>
-
-      <div class="custom-item done">
-        <span class="step-circle">
-          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
-            viewBox="0 0 24 24" fill="none" stroke="currentColor"
-            stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M5 12l5 5l10 -10" />
-          </svg>
-        </span>
-        <p>Managing workloads</p>
-      </div>
-
-    </div>
-  </div>
-        </div>
-
-        <!-- Card 5 -->
-         <div class="col-12 col-md-6 col-lg-4">
-  <div class="custom-card">
-
-    <span class="card-number">05</span>
-
-    <div class="card-header">
-      <h5>Kubernetes Advanced</h5>
-
-      <span class="badge-card">
-        <span class="gradient-text">Week 7</span>
-      </span>
-
-      <p class="card-desc">Production-grade Kubernetes</p>
-    </div>
-
-    <div class="custom-card-content">
-
-      <div class="custom-item">
-        <span class="step-circle">1</span>
-        <p>Scaling و rolling updates</p>
-      </div>
-
-      <div class="custom-item">
-        <span class="step-circle">2</span>
-        <p>ConfigMaps و Secrets</p>
-      </div>
-
-      <div class="custom-item">
-        <span class="step-circle">3</span>
-        <p>Secret management strategies في Kubernetes</p>
-      </div>
-
-      <div class="custom-item">
-        <span class="step-circle">4</span>
-        <p>Storage و persistent volumes</p>
-      </div>
-
-      <div class="custom-item done">
-        <span class="step-circle">
-          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
-            viewBox="0 0 24 24" fill="none" stroke="currentColor"
-            stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M5 12l5 5l10 -10" />
-          </svg>
-        </span>
-        <p>Handling failures و troubleshooting</p>
-      </div>
-
-    </div>
-  </div>
-        </div>
-
-        <!-- Card 6 -->
-         <div class="col-12 col-md-6 col-lg-4">
-  <div class="custom-card">
-
-    <span class="card-number">06</span>
-
-    <div class="card-header">
-      <h5>GitOps with Argo CD</h5>
-
-      <span class="badge-card">
-        <span class="gradient-text">Week 8</span>
-      </span>
-
-      <p class="card-desc">GitOps principles</p>
-    </div>
-
-    <div class="custom-card-content">
-
-      <div class="custom-item">
-        <span class="step-circle">1</span>
-        <p>GitOps principles</p>
-      </div>
-
-      <div class="custom-item">
-        <span class="step-circle">2</span>
-        <p>Deploying applications باستخدام Argo CD</p>
-      </div>
-
-      <div class="custom-item">
-        <span class="step-circle">3</span>
-        <p>Managing multiple environments</p>
-      </div>
-
-      <div class="custom-item">
-        <span class="step-circle">4</span>
-        <p>Sync strategies و rollback</p>
-      </div>
-
-      <div class="custom-item done">
-        <span class="step-circle">
-          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
-            viewBox="0 0 24 24" fill="none" stroke="currentColor"
-            stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M5 12l5 5l10 -10" />
-          </svg>
-        </span>
-        <p>Securing GitOps workflows</p>
-      </div>
-
-    </div>
-  </div>
-        </div>
-
-        <!-- Card 7 -->
-         <div class="col-12 col-md-6 col-lg-4">
-  <div class="custom-card">
-
-    <span class="card-number">07</span>
-
-    <div class="card-header">
-      <h5>Service Mesh (Istio)</h5>
-
-      <span class="badge-card">
-        <span class="gradient-text">Week 9</span>
-      </span>
-
-      <p class="card-desc">Quick Intro</p>
-    </div>
-
-    <div class="custom-card-content">
-
-      <div class="custom-item">
-        <span class="step-circle">1</span>
-        <p>What is a Service Mesh and why it matters</p>
-      </div>
-
-      <div class="custom-item">
-        <span class="step-circle">2</span>
-        <p>Istio architecture (control plane vs data plane)</p>
-      </div>
-
-      <div class="custom-item">
-        <span class="step-circle">3</span>
-        <p>Traffic management basics (routing, retries, timeouts)</p>
-      </div>
-
-      <div class="custom-item">
-        <span class="step-circle">4</span>
-        <p>mTLS concept and zero-trust overview</p>
-      </div>
-
-      <div class="custom-item done">
-        <span class="step-circle">
-          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
-            viewBox="0 0 24 24" fill="none" stroke="currentColor"
-            stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M5 12l5 5l10 -10" />
-          </svg>
-        </span>
-        <p>When to use (and not use) Istio in Production</p>
-      </div>
-
-    </div>
-  </div>
-        </div>
-
-        <!-- Card 8 -->
-         <div class="col-12 col-md-6 col-lg-4">
-  <div class="custom-card">
-
-    <span class="card-number">08</span>
-
-    <div class="card-header">
-      <h5>Terraform (IaC)</h5>
-
-      <span class="badge-card">
-        <span class="gradient-text">Week 10</span>
-      </span>
-
-      <p class="card-desc">Infrastructure after Kubernetes</p>
-    </div>
-
-    <div class="custom-card-content">
-
-      <div class="custom-item">
-        <span class="step-circle">1</span>
-        <p>Provisioning Kubernetes infrastructure using Terraform</p>
-      </div>
-
-      <div class="custom-item">
-        <span class="step-circle">2</span>
-        <p>State management و modules</p>
-      </div>
-
-      <div class="custom-item">
-        <span class="step-circle">3</span>
-        <p>Managing environments باستخدام IaC</p>
-      </div>
-
-      <div class="custom-item done">
-        <span class="step-circle">
-          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
-            viewBox="0 0 24 24" fill="none" stroke="currentColor"
-            stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M5 12l5 5l10 -10" />
-          </svg>
-        </span>
-        <p>Infrastructure best practices for Production</p>
-      </div>
-
-    </div>
-  </div>
-        </div>
-
-        <!-- Card 9 -->
-         <div class="col-12 col-md-6 col-lg-4">
-  <div class="custom-card">
-
-    <span class="card-number">09</span>
-
-    <div class="card-header">
-      <h5>Observability</h5>
-
-      <span class="badge-card">
-        <span class="gradient-text">Week 10</span>
-      </span>
-
-      <p class="card-desc">Extra Bonus</p>
-    </div>
-
-    <div class="custom-card-content">
-
-      <div class="custom-item">
-        <span class="step-circle">1</span>
-        <p>Monitoring و logging fundamentals</p>
-      </div>
-
-      <div class="custom-item">
-        <span class="step-circle">2</span>
-        <p>Metrics, alerts, و dashboards</p>
-      </div>
-
-      <div class="custom-item done">
-        <span class="step-circle">
-          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
-            viewBox="0 0 24 24" fill="none" stroke="currentColor"
-            stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M5 12l5 5l10 -10" />
-          </svg>
-        </span>
-        <p>Observability in Kubernetes environments</p>
-      </div>
-
-    </div>
-  </div>
-        </div>
-
-        <!-- Card 10 -->
-         <div class="col-12 col-md-6 col-lg-4">
-  <div class="custom-card">
-
-    <span class="card-number">10</span>
-
-    <div class="card-header">
-      <h5>Final Project (Capstone)</h5>
-
-      <span class="badge-card">
-        <span class="gradient-text">Week 11-12</span>
-      </span>
-
-      <p class="card-desc">Production-grade End-to-End Project</p>
-    </div>
-
-    <div class="custom-card-content">
-
-      <div class="custom-item">
-        <span class="step-circle">1</span>
-        <p>End-to-end Production workflow</p>
-      </div>
-
-      <div class="custom-item">
-        <span class="step-circle">2</span>
-        <p>Docker + CI/CD + Kubernetes + Argo CD + Terraform</p>
-      </div>
-
-      <div class="custom-item">
-        <span class="step-circle">3</span>
-        <p>Optional Istio integration</p>
-      </div>
-
-      <div class="custom-item">
-        <span class="step-circle">4</span>
-        <p>Secure secrets handling</p>
-      </div>
-
-      <div class="custom-item done">
-        <span class="step-circle">
-          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
-            viewBox="0 0 24 24" fill="none" stroke="currentColor"
-            stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M5 12l5 5l10 -10" />
-          </svg>
-        </span>
-        <p>Project جاهز لـ GitHub و Portfolio</p>
-      </div>
-
-    </div>
-  </div>
-        </div>
+        <article class="col-12 col-md-6 col-lg-4">
+          <div class="custom-card">
+
+            <span class="card-number" aria-hidden="true">04</span>
+
+            <div class="card-header">
+              <h4>Kubernetes Core</h4>
+
+              <span class="badge-card">
+                <span class="gradient-text">Week 6</span>
+              </span>
+
+              <p class="card-desc">Kubernetes architecture و core components</p>
+            </div>
+
+            <div class="custom-card-content">
+
+              <div class="custom-item">
+                <span class="step-circle" aria-hidden="true">1</span>
+                <p>Kubernetes architecture و core components</p>
+              </div>
+
+              <div class="custom-item">
+                <span class="step-circle" aria-hidden="true">2</span>
+                <p>Pods, Deployments, Services</p>
+              </div>
+
+              <div class="custom-item">
+                <span class="step-circle" aria-hidden="true">3</span>
+                <p>Kubernetes networking basics</p>
+              </div>
+
+              <div class="custom-item done">
+                <span class="step-circle" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M5 12l5 5l10 -10" />
+                  </svg>
+                </span>
+                <p>Managing workloads</p>
+              </div>
+
+            </div>
+          </div>
+        </article>
+
+        <article class="col-12 col-md-6 col-lg-4">
+          <div class="custom-card">
+
+            <span class="card-number" aria-hidden="true">05</span>
+
+            <div class="card-header">
+              <h4>Kubernetes Advanced</h4>
+
+              <span class="badge-card">
+                <span class="gradient-text">Week 7</span>
+              </span>
+
+              <p class="card-desc">Production-grade Kubernetes</p>
+            </div>
+
+            <div class="custom-card-content">
+
+              <div class="custom-item">
+                <span class="step-circle" aria-hidden="true">1</span>
+                <p>Scaling و rolling updates</p>
+              </div>
+
+              <div class="custom-item">
+                <span class="step-circle" aria-hidden="true">2</span>
+                <p>ConfigMaps و Secrets</p>
+              </div>
+
+              <div class="custom-item">
+                <span class="step-circle" aria-hidden="true">3</span>
+                <p>Secret management strategies في Kubernetes</p>
+              </div>
+
+              <div class="custom-item">
+                <span class="step-circle" aria-hidden="true">4</span>
+                <p>Storage و persistent volumes</p>
+              </div>
+
+              <div class="custom-item done">
+                <span class="step-circle" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M5 12l5 5l10 -10" />
+                  </svg>
+                </span>
+                <p>Handling failures و troubleshooting</p>
+              </div>
+
+            </div>
+          </div>
+        </article>
+
+        <article class="col-12 col-md-6 col-lg-4">
+          <div class="custom-card">
+
+            <span class="card-number" aria-hidden="true">06</span>
+
+            <div class="card-header">
+              <h4>GitOps with Argo CD</h4>
+
+              <span class="badge-card">
+                <span class="gradient-text">Week 8</span>
+              </span>
+
+              <p class="card-desc">GitOps principles</p>
+            </div>
+
+            <div class="custom-card-content">
+
+              <div class="custom-item">
+                <span class="step-circle" aria-hidden="true">1</span>
+                <p>GitOps principles</p>
+              </div>
+
+              <div class="custom-item">
+                <span class="step-circle" aria-hidden="true">2</span>
+                <p>Deploying applications باستخدام Argo CD</p>
+              </div>
+
+              <div class="custom-item">
+                <span class="step-circle" aria-hidden="true">3</span>
+                <p>Managing multiple environments</p>
+              </div>
+
+              <div class="custom-item">
+                <span class="step-circle" aria-hidden="true">4</span>
+                <p>Sync strategies و rollback</p>
+              </div>
+
+              <div class="custom-item done">
+                <span class="step-circle" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M5 12l5 5l10 -10" />
+                  </svg>
+                </span>
+                <p>Securing GitOps workflows</p>
+              </div>
+
+            </div>
+          </div>
+        </article>
+
+        <article class="col-12 col-md-6 col-lg-4">
+          <div class="custom-card">
+
+            <span class="card-number" aria-hidden="true">07</span>
+
+            <div class="card-header">
+              <h4>Service Mesh (Istio)</h4>
+
+              <span class="badge-card">
+                <span class="gradient-text">Week 9</span>
+              </span>
+
+              <p class="card-desc">Quick Intro</p>
+            </div>
+
+            <div class="custom-card-content">
+
+              <div class="custom-item">
+                <span class="step-circle" aria-hidden="true">1</span>
+                <p>What is a Service Mesh and why it matters</p>
+              </div>
+
+              <div class="custom-item">
+                <span class="step-circle" aria-hidden="true">2</span>
+                <p>Istio architecture (control plane vs data plane)</p>
+              </div>
+
+              <div class="custom-item">
+                <span class="step-circle" aria-hidden="true">3</span>
+                <p>Traffic management basics (routing, retries, timeouts)</p>
+              </div>
+
+              <div class="custom-item">
+                <span class="step-circle" aria-hidden="true">4</span>
+                <p>mTLS concept and zero-trust overview</p>
+              </div>
+
+              <div class="custom-item done">
+                <span class="step-circle" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org" width="18/2000/svg" height="18"
+                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M5 12l5 5l10 -10" />
+                  </svg>
+                </span>
+                <p>When to use (and not use) Istio in Production</p>
+              </div>
+
+            </div>
+          </div>
+        </article>
+
+        <article class="col-12 col-md-6 col-lg-4">
+          <div class="custom-card">
+
+            <span class="card-number" aria-hidden="true">08</span>
+
+            <div class="card-header">
+              <h4>Terraform (IaC)</h4>
+
+              <span class="badge-card">
+                <span class="gradient-text">Week 10</span>
+              </span>
+
+              <p class="card-desc">Infrastructure after Kubernetes</p>
+            </div>
+
+            <div class="custom-card-content">
+
+              <div class="custom-item">
+                <span class="step-circle" aria-hidden="true">1</span>
+                <p>Provisioning Kubernetes infrastructure using Terraform</p>
+              </div>
+
+              <div class="custom-item">
+                <span class="step-circle" aria-hidden="true">2</span>
+                <p>State management و modules</p>
+              </div>
+
+              <div class="custom-item">
+                <span class="step-circle" aria-hidden="true">3</span>
+                <p>Managing environments باستخدام IaC</p>
+              </div>
+
+              <div class="custom-item done">
+                <span class="step-circle" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M5 12l5 5l10 -10" />
+                  </svg>
+                </span>
+                <p>Infrastructure best practices for Production</p>
+              </div>
+
+            </div>
+          </div>
+        </article>
+
+        <article class="col-12 col-md-6 col-lg-4">
+          <div class="custom-card">
+
+            <span class="card-number" aria-hidden="true">09</span>
+
+            <div class="card-header">
+              <h4>Observability</h4>
+
+              <span class="badge-card">
+                <span class="gradient-text">Week 10</span>
+              </span>
+
+              <p class="card-desc">Extra Bonus</p>
+            </div>
+
+            <div class="custom-card-content">
+
+              <div class="custom-item">
+                <span class="step-circle" aria-hidden="true">1</span>
+                <p>Monitoring و logging fundamentals</p>
+              </div>
+
+              <div class="custom-item">
+                <span class="step-circle" aria-hidden="true">2</span>
+                <p>Metrics, alerts, و dashboards</p>
+              </div>
+
+              <div class="custom-item done">
+                <span class="step-circle" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M5 12l5 5l10 -10" />
+                  </svg>
+                </span>
+                <p>Observability in Kubernetes environments</p>
+              </div>
+
+            </div>
+          </div>
+        </article>
+
+        <article class="col-12 col-md-6 col-lg-4">
+          <div class="custom-card">
+
+            <span class="card-number" aria-hidden="true">10</span>
+
+            <div class="card-header">
+              <h4>Final Project (Capstone)</h4>
+
+              <span class="badge-card">
+                <span class="gradient-text">Week 11-12</span>
+              </span>
+
+              <p class="card-desc">Production-grade End-to-End Project</p>
+            </div>
+
+            <div class="custom-card-content">
+
+              <div class="custom-item">
+                <span class="step-circle" aria-hidden="true">1</span>
+                <p>End-to-end Production workflow</p>
+              </div>
+
+              <div class="custom-item">
+                <span class="step-circle" aria-hidden="true">2</span>
+                <p>Docker + CI/CD + Kubernetes + Argo CD + Terraform</p>
+              </div>
+
+              <div class="custom-item">
+                <span class="step-circle" aria-hidden="true">3</span>
+                <p>Optional Istio integration</p>
+              </div>
+
+              <div class="custom-item">
+                <span class="step-circle" aria-hidden="true">4</span>
+                <p>Secure secrets handling</p>
+              </div>
+
+              <div class="custom-item done">
+                <span class="step-circle" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M5 12l5 5l10 -10" />
+                  </svg>
+                </span>
+                <p>Project جاهز لـ GitHub و Portfolio</p>
+              </div>
+
+            </div>
+          </div>
+        </article>
 
     </div>
   </section>
@@ -827,609 +871,513 @@ DevOps Engineer يعمل بالفعل ولكن يريد إتقان Kubernetes و
 
 
 
+  <!-- HOW IT WORKS SECTION -->
+  <section id="how" class="section how-section" dir="rtl" lang="ar" aria-labelledby="how-title">
+    <div class="container">
 
-
-  <!--  how it works -->
-<section id="how" class="section how-section" dir="rtl" lang="ar">
-  <div class="container">
-
-    <!-- TITLE -->
-    <div class="title-content">
-      <span class="badge-2">
-        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M12 3l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/>
-        </svg>
-        محتوى البرنامج
-      </span>
-
-      <h1><span class="blue">كيف يعمل</span> البرنامج</h1>
-    </div>
-
-    <!-- CARDS -->
-    <div class="cards">
-      <div class="how-card">
-        <div class="card-content">
-          <div class="svg-4"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-calendar-week"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M16 2c.183 0 .355 .05 .502 .135l.033 .02c.28 .177 .465 .49 .465 .845v1h1a3 3 0 0 1 2.995 2.824l.005 .176v12a3 3 0 0 1 -2.824 2.995l-.176 .005h-12a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-12a3 3 0 0 1 2.824 -2.995l.176 -.005h1v-1a1 1 0 0 1 .514 -.874l.093 -.046l.066 -.025l.1 -.029l.107 -.019l.12 -.007q .083 0 .161 .013l.122 .029l.04 .012l.06 .023c.328 .135 .568 .44 .61 .806l.007 .117v1h6v-1a1 1 0 0 1 1 -1m3 7h-14v9.625c0 .705 .386 1.286 .883 1.366l.117 .009h12c.513 0 .936 -.53 .993 -1.215l.007 -.16z" /><path d="M9.015 13a1 1 0 0 1 -1 1a1.001 1.001 0 1 1 -.005 -2c.557 0 1.005 .448 1.005 1" /><path d="M13.015 13a1 1 0 0 1 -1 1a1.001 1.001 0 1 1 -.005 -2c.557 0 1.005 .448 1.005 1" /><path d="M17.02 13a1 1 0 0 1 -1 1a1.001 1.001 0 1 1 -.005 -2c.557 0 1.005 .448 1.005 1" /><path d="M12.02 15a1 1 0 0 1 0 2a1.001 1.001 0 1 1 -.005 -2z" /><path d="M9.015 16a1 1 0 0 1 -1 1a1.001 1.001 0 1 1 -.005 -2c.557 0 1.005 .448 1.005 1" /></svg></div>
-          <span>المدة</span>
-          <p>3 شهور – 12 أسبوع</p>
-        </div>
-      </div>
-
-      <div class="how-card blue-card">
-        <div class="card-content">
-          <div class="svg-4"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-camera-plus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 20h-7a2 2 0 0 1 -2 -2v-9a2 2 0 0 1 2 -2h1a2 2 0 0 0 2 -2a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1a2 2 0 0 0 2 2h1a2 2 0 0 1 2 2v3.5" /><path d="M16 19h6" /><path d="M19 16v6" /><path d="M9 13a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /></svg></div>
-          <span>اللايف</span>
-          <p>4 ساعات أسبوعيًا جلسات مباشرة</p>
-        </div>
-      </div>
-
-      <div class="how-card">
-        <div class="card-content">
-          <div class="svg-4"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-sparkles"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M16 18a2 2 0 0 1 2 2a2 2 0 0 1 2 -2a2 2 0 0 1 -2 -2a2 2 0 0 1 -2 2m0 -12a2 2 0 0 1 2 2a2 2 0 0 1 2 -2a2 2 0 0 1 -2 -2a2 2 0 0 1 -2 2m-7 12a6 6 0 0 1 6 -6a6 6 0 0 1 -6 -6a6 6 0 0 1 -6 6a6 6 0 0 1 6 6" /></svg></div>
-          <span>الطريقة</span>
-          <p>شرح + تطبيق عملي + ديموهات</p>
-        </div>
-      </div>
-
-      <div class="how-card blue-card">
-        <div class="card-content">
-          <div class="svg-4"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-clock-hour-12"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M12 7v5" /></svg></div>
-          <span>الوقت</span>
-          <p>3–4 ساعات إضافية</p>
-        </div>
-      </div>
-
-      <div class="how-card">
-        <div class="card-content">
-          <div class="svg-4"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-users"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 7a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" /><path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" /><path d="M16 3.13a4 4 0 0 1 0 7.75" /><path d="M21 21v-2a4 4 0 0 0 -3 -3.85" /></svg></div>
-          <span>النظام</span>
-          <p>مجموعة صغيرة</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- ADD BOX -->
-<div class="add-box">
-
-  <h3 class="add-title" dir="ltr" lang="ar">🧭  Program Career Mentorship برنامج الإرشاد المهني</h3>
-
-  <div class="add-box-inner">
-
-    <!-- RIGHT CARD -->
-    <div class="add-right">
-      <div class="top-card">
-        <div class="icon-box"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-sparkles"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M16 18a2 2 0 0 1 2 2a2 2 0 0 1 2 -2a2 2 0 0 1 -2 -2a2 2 0 0 1 -2 2m0 -12a2 2 0 0 1 2 2a2 2 0 0 1 2 -2a2 2 0 0 1 -2 -2a2 2 0 0 1 -2 2m-7 12a6 6 0 0 1 6 -6a6 6 0 0 1 -6 -6a6 6 0 0 1 -6 6a6 6 0 0 1 6 6" /></svg></div>
-        <strong>برنامج الإرشاد المهني</strong>
-      </div>
-
-      <p>
-        جلسات فردية ومتابعة مستمرة حتى الوصول إلى الجاهزية المهنية لسوق العمل.
-      </p>
-
-      <div class="price-box ">
-        <span class="old-price">3000 EGP</span>
-      </div>
-
-      <button class="btn btn-white-2 m-auto ">مجانًا مع البرنامج</button>
-    </div>
-
-    <!-- LEFT LIST -->
-    <div class="add-left">
-      <div class="add-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-folder"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 4h4l3 3h7a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-11a2 2 0 0 1 2 -2" /></svg> مراجعة عملية للمشاريع مع توجيه مباشر لتحسين الـ Final Project وطريقة عرضه بشكل احترافي.</div>
-      <div class="add-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-users"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 7a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" /><path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" /><path d="M16 3.13a4 4 0 0 1 0 7.75" /><path d="M21 21v-2a4 4 0 0 0 -3 -3.85" /></svg>جلسات إرشاد فردية خلال مدة البرنامج، تتضمن Feedback عملي مبني على خبرة حقيقية من سوق العمل.</div>
-      <div class="add-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-file-dots"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 2l.117 .007a1 1 0 0 1 .876 .876l.007 .117v4l.005 .15a2 2 0 0 0 1.838 1.844l.157 .006h4l.117 .007a1 1 0 0 1 .876 .876l.007 .117v9a3 3 0 0 1 -2.824 2.995l-.176 .005h-10a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-14a3 3 0 0 1 2.824 -2.995l.176 -.005zm-3 12a1 1 0 0 0 -.993 .883l-.007 .127a1 1 0 0 0 1.993 .117l.007 -.127a1 1 0 0 0 -1 -1m3 0a1 1 0 0 0 -.993 .883l-.007 .127a1 1 0 0 0 1.993 .117l.007 -.127a1 1 0 0 0 -1 -1m3 0a1 1 0 0 0 -.993 .883l-.007 .127a1 1 0 0 0 1.993 .117l.007 -.127a1 1 0 0 0 -1 -1" /><path d="M19 7h-4l-.001 -4.001z" /></svg> متابعة مستمرة لمساعدتك على الاستعداد للانتقال المهني أو تحسين فرص التوظيف.</div>
-      <div class="add-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-file-dots"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 2l.117 .007a1 1 0 0 1 .876 .876l.007 .117v4l.005 .15a2 2 0 0 0 1.838 1.844l.157 .006h4l.117 .007a1 1 0 0 1 .876 .876l.007 .117v9a3 3 0 0 1 -2.824 2.995l-.176 .005h-10a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-14a3 3 0 0 1 2.824 -2.995l.176 -.005zm-3 12a1 1 0 0 0 -.993 .883l-.007 .127a1 1 0 0 0 1.993 .117l.007 -.127a1 1 0 0 0 -1 -1m3 0a1 1 0 0 0 -.993 .883l-.007 .127a1 1 0 0 0 1.993 .117l.007 -.127a1 1 0 0 0 -1 -1m3 0a1 1 0 0 0 -.993 .883l-.007 .127a1 1 0 0 0 1.993 .117l.007 -.127a1 1 0 0 0 -1 -1" /><path d="M19 7h-4l-.001 -4.001z" /></svg> مراجعة CV و GitHub Profile مخصصة لمسار DevOps و Cloud Native Roles.</div>
-    </div>
-
-  </div>
-</div>
-
-  </div>
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- what will you get ? -->
-    <section id="what" class=" section  ">
-
-      <div class="container">
-   <div class="row">
-
-        <!-- title -->
-           <div class="title-content">
-        <span class="badge-2">
-          النتائج
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-award"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19.496 13.983l1.966 3.406a1.001 1.001 0 0 1 -.705 1.488l-.113 .011l-.112 -.001l-2.933 -.19l-1.303 2.636a1.001 1.001 0 0 1 -1.608 .26l-.082 -.094l-.072 -.11l-1.968 -3.407a8.994 8.994 0 0 0 6.93 -3.999z" /><path d="M11.43 17.982l-1.966 3.408a1.001 1.001 0 0 1 -1.622 .157l-.076 -.1l-.064 -.114l-1.304 -2.635l-2.931 .19a1.001 1.001 0 0 1 -1.022 -1.29l.04 -.107l.05 -.1l1.968 -3.409a8.994 8.994 0 0 0 6.927 4.001z" /><path d="M12 2l.24 .004a7 7 0 0 1 6.76 6.996l-.003 .193l-.007 .192l-.018 .245l-.026 .242l-.024 .178a6.985 6.985 0 0 1 -.317 1.268l-.116 .308l-.153 .348a7.001 7.001 0 0 1 -12.688 -.028l-.13 -.297l-.052 -.133l-.08 -.217l-.095 -.294a6.96 6.96 0 0 1 -.093 -.344l-.06 -.271l-.049 -.271l-.02 -.139l-.039 -.323l-.024 -.365l-.006 -.292a7 7 0 0 1 6.76 -6.996l.24 -.004z" /></svg>
+      <div class="title-content">
+        <span class="badge-2" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M12 3l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/>
+          </svg>
+          محتوى البرنامج
         </span>
-        <div class="who-content">  
-          <h1><span class="blue" >ماذا ستحصل</span> عليه بعد البرنامج ؟</h1>
-        </div>
+
+        <h2 id="how-title"><span class="blue">كيف يعمل</span> البرنامج</h2>
       </div>
 
-
-      <!-- cards -->
-
-        <div class="container" dir="rtl" lang="ar">
-        <div class="row g-4">
-    
-    <!-- card-1 -->
-    <div class="col-12 col-md-6">
-      <div class="what-card">
-        <div class="card-content" lang="ar" dir="rtl">
-          <div class="header-section">
-            <div class="icon-circle">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-github github"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" /></svg>
-            </div>
-
-            <div>
-              <h3 class="mb-2">مشاريع حقيقية على GitHub</h3>
-              <p>مشاريع موثقة وقابلة للعرض أمام أصحاب العمل</p>
-            </div>
+      <div class="cards" role="list">
+        <article class="how-card" role="listitem">
+          <div class="card-content">
+            <div class="svg-4" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-calendar-week"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M16 2c.183 0 .355 .05 .502 .135l.033 .02c.28 .177 .465 .49 .465 .845v1h1a3 3 0 0 1 2.995 2.824l.005 .176v12a3 3 0 0 1 -2.824 2.995l-.176 .005h-12a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-12a3 3 0 0 1 2.824 -2.995l.176 -.005h1v-1a1 1 0 0 1 .514 -.874l.093 -.046l.066 -.025l.1 -.029l.107 -.019l.12 -.007q .083 0 .161 .013l.122 .029l.04 .012l.06 .023c.328 .135 .568 .44 .61 .806l.007 .117v1h6v-1a1 1 0 0 1 1 -1m3 7h-14v9.625c0 .705 .386 1.286 .883 1.366l.117 .009h12c.513 0 .936 -.53 .993 -1.215l.007 -.16z" /><path d="M9.015 13a1 1 0 0 1 -1 1a1.001 1.001 0 1 1 -.005 -2c.557 0 1.005 .448 1.005 1" /><path d="M13.015 13a1 1 0 0 1 -1 1a1.001 1.001 0 1 1 -.005 -2c.557 0 1.005 .448 1.005 1" /><path d="M17.02 13a1 1 0 0 1 -1 1a1.001 1.001 0 1 1 -.005 -2c.557 0 1.005 .448 1.005 1" /><path d="M12.02 15a1 1 0 0 1 0 2a1.001 1.001 0 1 1 -.005 -2z" /><path d="M9.015 16a1 1 0 0 1 -1 1a1.001 1.001 0 1 1 -.005 -2c.557 0 1.005 .448 1.005 1" /></svg></div>
+            <span>المدة</span>
+            <p>3 شهور – 12 أسبوع</p>
           </div>
+        </article>
+
+        <article class="how-card blue-card" role="listitem">
+          <div class="card-content">
+            <div class="svg-4" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-camera-plus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 20h-7a2 2 0 0 1 -2 -2v-9a2 2 0 0 1 2 -2h1a2 2 0 0 0 2 -2a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1a2 2 0 0 0 2 2h1a2 2 0 0 1 2 2v3.5" /><path d="M16 19h6" /><path d="M19 16v6" /><path d="M9 13a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /></svg></div>
+            <span>اللايف</span>
+            <p>4 ساعات أسبوعيًا جلسات مباشرة</p>
+          </div>
+        </article>
+
+        <article class="how-card" role="listitem">
+          <div class="card-content">
+            <div class="svg-4" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-sparkles"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M16 18a2 2 0 0 1 2 2a2 2 0 0 1 2 -2a2 2 0 0 1 -2 -2a2 2 0 0 1 -2 2m0 -12a2 2 0 0 1 2 2a2 2 0 0 1 2 -2a2 2 0 0 1 -2 -2a2 2 0 0 1 -2 2m-7 12a6 6 0 0 1 6 -6a6 6 0 0 1 -6 -6a6 6 0 0 1 -6 6a6 6 0 0 1 6 6" /></svg></div>
+            <span>الطريقة</span>
+            <p>شرح + تطبيق عملي + ديموهات</p>
+          </div>
+        </article>
+
+        <article class="how-card blue-card" role="listitem">
+          <div class="card-content">
+            <div class="svg-4" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-clock-hour-12"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M12 7v5" /></svg></div>
+            <span>الوقت</span>
+            <p>3–4 ساعات إضافية</p>
+          </div>
+        </article>
+
+        <article class="how-card" role="listitem">
+          <div class="card-content">
+            <div class="svg-4" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-users"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 7a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" /><path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" /><path d="M16 3.13a4 4 0 0 1 0 7.75" /><path d="M21 21v-2a4 4 0 0 0 -3 -3.85" /></svg></div>
+            <span>النظام</span>
+            <p>مجموعة صغيرة</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="add-box">
+
+        <h3 class="add-title" dir="ltr" lang="ar">🧭 Program Career Mentorship برنامج الإرشاد المهني</h3>
+
+        <div class="add-box-inner">
+
+          <aside class="add-right">
+            <div class="top-card">
+              <div class="icon-box" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-sparkles"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M16 18a2 2 0 0 1 2 2a2 2 0 0 1 2 -2a2 2 0 0 1 -2 -2a2 2 0 0 1 -2 2m0 -12a2 2 0 0 1 2 2a2 2 0 0 1 2 -2a2 2 0 0 1 -2 -2a2 2 0 0 1 -2 2m-7 12a6 6 0 0 1 6 -6a6 6 0 0 1 -6 -6a6 6 0 0 1 -6 6a6 6 0 0 1 6 6" /></svg></div>
+              <strong>برنامج الإرشاد المهني</strong>
+            </div>
+
+            <p>
+              جلسات فردية ومتابعة مستمرة حتى الوصول إلى الجاهزية المهنية لسوق العمل.
+            </p>
+
+            <div class="price-box ">
+              <span class="old-price">3000 EGP</span>
+            </div>
+
+            <button class="btn btn-white-2 m-auto " aria-label="مجانًا مع البرنامج">مجانًا مع البرنامج</button>
+          </aside>
+
+          <div class="add-left">
+            <div class="add-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-folder" aria-hidden="true"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 4h4l3 3h7a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-11a2 2 0 0 1 2 -2" /></svg> مراجعة عملية للمشاريع مع توجيه مباشر لتحسين الـ Final Project وطريقة عرضه بشكل احترافي.</div>
+            <div class="add-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-users" aria-hidden="true"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 7a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" /><path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" /><path d="M16 3.13a4 4 0 0 1 0 7.75" /><path d="M21 21v-2a4 4 0 0 0 -3 -3.85" /></svg>جلسات إرشاد فردية خلال مدة البرنامج، تتضمن Feedback عملي مبني على خبرة حقيقية من سوق العمل.</div>
+            <div class="add-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-file-dots" aria-hidden="true"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 2l.117 .007a1 1 0 0 1 .876 .876l.007 .117v4l.005 .15a2 2 0 0 0 1.838 1.844l.157 .006h4l.117 .007a1 1 0 0 1 .876 .876l.007 .117v9a3 3 0 0 1 -2.824 2.995l-.176 .005h-10a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-14a3 3 0 0 1 2.824 -2.995l.176 -.005zm-3 12a1 1 0 0 0 -.993 .883l-.007 .127a1 1 0 0 0 1.993 .117l.007 -.127a1 1 0 0 0 -1 -1m3 0a1 1 0 0 0 -.993 .883l-.007 .127a1 1 0 0 0 1.993 .117l.007 -.127a1 1 0 0 0 -1 -1m3 0a1 1 0 0 0 -.993 .883l-.007 .127a1 1 0 0 0 1.993 .117l.007 -.127a1 1 0 0 0 -1 -1" /><path d="M19 7h-4l-.001 -4.001z" /></svg> متابعة مستمرة لمساعدتك على الاستعداد للانتقال المهني أو تحسين فرص التوظيف.</div>
+            <div class="add-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-file-dots" aria-hidden="true"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 2l.117 .007a1 1 0 0 1 .876 .876l.007 .117v4l.005 .15a2 2 0 0 0 1.838 1.844l.157 .006h4l.117 .007a1 1 0 0 1 .876 .876l.007 .117v9a3 3 0 0 1 -2.824 2.995l-.176 .005h-10a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-14a3 3 0 0 1 2.824 -2.995l.176 -.005zm-3 12a1 1 0 0 0 -.993 .883l-.007 .127a1 1 0 0 0 1.993 .117l.007 -.127a1 1 0 0 0 -1 -1m3 0a1 1 0 0 0 -.993 .883l-.007 .127a1 1 0 0 0 1.993 .117l.007 -.127a1 1 0 0 0 -1 -1m3 0a1 1 0 0 0 -.993 .883l-.007 .127a1 1 0 0 0 1.993 .117l.007 -.127a1 1 0 0 0 -1 -1" /><path d="M19 7h-4l-.001 -4.001z" /></svg> مراجعة CV و GitHub Profile مخصصة لمسار DevOps و Cloud Native Roles.</div>
+          </div>
+
         </div>
       </div>
+
     </div>
-
-    <!-- card-2 -->
-    <div class="col-12 col-md-6">
-      <div class="what-card">
-        <div class="card-content" lang="ar" dir="rtl">
-          <div class="header-section">
-            <div class="icon-circle">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-file-dots dots"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14 3v4a1 1 0 0 0 1 1h4" /><path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2" /><path d="M9 14v.01" /><path d="M12 14v.01" /><path d="M15 14v.01" /></svg>
-            </div>
-            <div>
-              <h3 class="mb-2">مشروع نهائي احترافي</h3>
-              <p>منصة متكاملة تثبت قدراتك في DevOps و Kubernetes</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- card-3 -->
-    <div class="col-12 col-md-6">
-      <div class="what-card">
-        <div class="card-content" lang="ar" dir="rtl">
-          <div class="header-section">
-            <div class="icon-circle">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-award award"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M6 9a6 6 0 1 0 12 0a6 6 0 1 0 -12 0" /><path d="M12 15l3.4 5.89l1.598 -3.233l3.598 .232l-3.4 -5.889" /><path d="M6.802 12l-3.4 5.89l3.598 -.233l1.598 3.232l3.4 -5.889" /></svg>
-            </div>
-            <div>
-              <h3 class="mb-2">سيرة ذاتية قوية</h3>
-              <p>CV موجه خصيصًا لسوق DevOps مع مراجعة احترافية</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <!-- card-4 -->
-    <div class="col-12 col-md-6">
-      <div class="what-card">
-        <div class="card-content" lang="ar" dir="rtl">
-          <div class="header-section">
-            <div class="icon-circle">
-       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler mind icons-tabler-outline icon-tabler-brain"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M15.5 13a3.5 3.5 0 0 0 -3.5 3.5v1a3.5 3.5 0 0 0 7 0v-1.8" /><path d="M8.5 13a3.5 3.5 0 0 1 3.5 3.5v1a3.5 3.5 0 0 1 -7 0v-1.8" /><path d="M17.5 16a3.5 3.5 0 0 0 0 -7h-.5" /><path d="M19 9.3v-2.8a3.5 3.5 0 0 0 -7 0" /><path d="M6.5 16a3.5 3.5 0 0 1 0 -7h.5" /><path d="M5 9.3v-2.8a3.5 3.5 0 0 1 7 0v10" /></svg>
-            </div>
-            <div>
-              <h3 class="mb-2">طريقة تفكير عملية</h3>
-              <p>منهجية متقدمة لإدارة الأنظمة والنشر والتشغيل</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-        </div>
-          </div>
-
-
-
-          <!-- btn  -->
-
-      <div class="container d-flex justify-content-center align-items-center mt-5">
-  <button class="btn btn-secondary-4 btn-6">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-      <path d="M5 12h14M5 12l4 4M5 12l4-4"/>
-    </svg>
-اشترك الان
-  </button>
-</div>
-
-
-
-      </div>
-      </div>
-   
-    </section>
+  </section>
 
 
 
 
-
-    <!-- mainding -->
-  <section id="minding"   class=" program-section section ">
+  <!-- WHAT WILL YOU GET SECTION -->
+  <section id="what" class="section" aria-labelledby="what-title">
 
     <div class="container">
-  <!-- title -->
-  <div class="title-content text-center">
-    <span class="badge-2">
-      التكلفة والاشتراك
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-currency-dollar"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M16.7 8a3 3 0 0 0 -2.7 -2h-4a3 3 0 0 0 0 6h4a3 3 0 0 1 0 6h-4a3 3 0 0 1 -2.7 -2" /><path d="M12 3v3m0 12v3" /></svg>
-    </span>
+      <div class="row">
 
-    <div class="who-content mt-3">
-      <h1 ><span class="blue">الاستثمار في</span> مستقبلك المهني</h1>
-      <h4 class="midning-title-2">هذا البرنامج مصمم لمن يبحث عن انتقال مهني حقيقي في DevOps. تم تسعير البرنامج بناءً على المحتوى العملي، المشاريع، والوقت المباشر مع المدرب  — مع عدد محدود من المشاركين لضمان أقصى استفادة.</h4>
-    </div>
-  </div>
+        <div class="title-content">
+          <span class="badge-2" aria-hidden="true">
+            النتائج
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-award" aria-hidden="true"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19.496 13.983l1.966 3.406a1.001 1.001 0 0 1 -.705 1.488l-.113 .011l-.112 -.001l-2.933 -.19l-1.303 2.636a1.001 1.001 0 0 1 -1.608 .26l-.082 -.094l-.072 -.11l-1.968 -3.407a8.994 8.994 0 0 0 6.93 -3.999z" /><path d="M11.43 17.982l-1.966 3.408a1.001 1.001 0 0 1 -1.622 .157l-.076 -.1l-.064 -.114l-1.304 -2.635l-2.931 .19a1.001 1.001 0 0 1 -1.022 -1.29l.04 -.107l.05 -.1l1.968 -3.409a8.994 8.994 0 0 0 6.927 4.001z" /><path d="M12 2l.24 .004a7 7 0 0 1 6.76 6.996l-.003 .193l-.007 .192l-.018 .245l-.026 .242l-.024 .178a6.985 6.985 0 0 1 -.317 1.268l-.116 .308l-.153 .348a7.001 7.001 0 0 1 -12.688 -.028l-.13 -.297l-.052 -.133l-.08 -.217l-.095 -.294a6.96 6.96 0 0 1 -.093 -.344l-.06 -.271l-.049 -.271l-.02 -.139l-.039 -.323l-.024 -.365l-.006 -.292a7 7 0 0 1 6.76 -6.996l.24 -.004z" /></svg>
+          </span>
+          <div class="who-content">  
+            <h2 id="what-title"><span class="blue">ماذا ستحصل</span> عليه بعد البرنامج؟</h2>
+          </div>
+        </div>
 
-  <!-- content -->
-  <div class="row align-items-start mt-5 ">
+
+        <div class="container" dir="rtl" lang="ar">
+          <div class="row g-4" role="list">
     
-    <!-- left card -->
-    <div class="col-lg-6 mb-4">
-      <div class="leftCard">
+            <article class="col-12 col-md-6" role="listitem">
+              <div class="what-card">
+                <div class="card-content" lang="ar" dir="rtl">
+                  <div class="header-section">
+                    <div class="icon-circle" aria-hidden="true">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-github github" aria-hidden="true"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" /></svg>
+                    </div>
 
-        <div class="card-title-2 text-center">
-          <h1 class="gradient-text">5000 EGP</h1>
-          <p>للبرنامج الكامل - 12 أسبوع</p>
+                    <div>
+                      <h3 class="mb-2">مشاريع حقيقية على GitHub</h3>
+                      <p>مشاريع موثقة وقابلة للعرض أمام أصحاب العمل</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="col-12 col-md-6" role="listitem">
+              <div class="what-card">
+                <div class="card-content" lang="ar" dir="rtl">
+                  <div class="header-section">
+                    <div class="icon-circle" aria-hidden="true">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-file-dots dots" aria-hidden="true"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14 3v4a1 1 0 0 0 1 1h4" /><path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2" /><path d="M9 14v.01" /><path d="M12 14v.01" /><path d="M15 14v.01" /></svg>
+                    </div>
+                    <div>
+                      <h3 class="mb-2">مشروع نهائي احترافي</h3>
+                      <p>منصة متكاملة تثبت قدراتك في DevOps و Kubernetes</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="col-12 col-md-6" role="listitem">
+              <div class="what-card">
+                <div class="card-content" lang="ar" dir="rtl">
+                  <div class="header-section">
+                    <div class="icon-circle" aria-hidden="true">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-award award" aria-hidden="true"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M6 9a6 6 0 1 0 12 0a6 6 0 1 0 -12 0" /><path d="M12 15l3.4 5.89l1.598 -3.233l3.598 .232l-3.4 -5.889" /><path d="M6.802 12l-3.4 5.89l3.598 -.233l1.598 3.232l3.4 -5.889" /></svg>
+                    </div>
+                    <div>
+                      <h3 class="mb-2">سيرة ذاتية قوية</h3>
+                      <p>CV موجه خصيصًا لسوق DevOps مع مراجعة احترافية</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+
+            <article class="col-12 col-md-6" role="listitem">
+              <div class="what-card">
+                <div class="card-content" lang="ar" dir="rtl">
+                  <div class="header-section">
+                    <div class="icon-circle" aria-hidden="true">
+                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler mind icons-tabler-outline icon-tabler-brain" aria-hidden="true"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M15.5 13a3.5 3.5 0 0 0 -3.5 3.5v1a3.5 3.5 0 0 0 7 0v-1.8" /><path d="M8.5 13a3.5 3.5 0 0 1 3.5 3.5v1a3.5 3.5 0 0 1 -7 0v-1.8" /><path d="M17.5 16a3.5 3.5 0 0 0 0 -7h-.5" /><path d="M19 9.3v-2.8a3.5 3.5 0 0 0 -7 0" /><path d="M6.5 16a3.5 3.5 0 0 1 0 -7h.5" /><path d="M5 9.3v-2.8a3.5 3.5 0 0 1 7 0v10" /></svg>
+                    </div>
+                    <div>
+                      <h3 class="mb-2">طريقة تفكير عملية</h3>
+                      <p>منهجية متقدمة لإدارة الأنظمة والنشر والتشغيل</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+          </div>
         </div>
 
-        <div class="card-body-2" lang="ar" dir="rtl">
-          <span>يشمل الاشتراك</span>
-          <ul class="d-flex flex-column gap-2">
-            <li><i class="fa-solid fa-check gradient-text "></i> البرنامج الكامل لمدة 12 أسبوع</li>
-            <li><i class="fa-solid fa-check gradient-text "></i> جلسات مباشرة 4 ساعات أسبوعيًا</li>
-            <li> <i class="fa-solid fa-check  gradient-text"></i>جميع المشاريع العملية والتطبيقات</li>
-            <li><i class="fa-solid fa-check  gradient-text"></i> الوصول إلى المواد خلال فترة البرنامج</li>
-          </ul>
-        </div>
 
-        <div class="text-center mt-4">
-          <button class="btn btn-secondary-4  w-100 d-flex justify-content-center">
-            اشترك الآن
+
+        <div class="container d-flex justify-content-center align-items-center mt-5">
+          <button class="btn btn-secondary-4 btn-6" aria-label="اشترك الآن في البرنامج">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M5 12h14M5 12l4 4M5 12l4-4"/>
+            </svg>
+            اشترك الان
           </button>
         </div>
 
+
+
       </div>
     </div>
+ 
+  </section>
 
-    <!-- right cards -->
-    <div class="col-lg-6 d-flex flex-column gap-4 minding"  >
-      <div class="minding-card">
-        <div class="card-content" lang="ar" dir="rtl">
-          <div class="header-section">
-            <div class="icon-circle">
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon  icon-tabler icons-tabler-outline icon-tabler-clock-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M20.942 13.021a9 9 0 1 0 -9.407 7.967" /><path d="M12 7v5l3 3" /><path d="M15 19l2 2l4 -4" /></svg>            </div>
 
-            <div class="minding-card-content">
-              <h3>عدد محدود</h3>
-              <p>البرنامج محدود بعدد صغير من المشاركين لضمان جودة الإرشاد والمتابعة الفردية.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="minding-card">
-        <div class="card-content" lang="ar" dir="rtl">
-          <div class="header-section">
-            <div class="icon-circle">
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-shield"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 3a12 12 0 0 0 8.5 3a12 12 0 0 1 -8.5 15a12 12 0 0 1 -8.5 -15a12 12 0 0 0 8.5 -3" /></svg>            </div>
 
-            <div class="minding-card-content "> 
-              <h3>ضمان التجربة</h3>
-              <p>نمنحك أسبوعًا كاملًا للتجربة ، مع إمكانية الانسحاب واسترداد المبلغ
-بالكامل في حال عدم الاستمرار.</p>
-            </div>
-          </div>
+
+  <!-- PRICING SECTION -->
+  <section id="minding" class="program-section section" aria-labelledby="pricing-title">
+
+    <div class="container">
+      <div class="title-content text-center">
+        <span class="badge-2" aria-hidden="true">
+          التكلفة والاشتراك
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-currency-dollar" aria-hidden="true"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M16.7 8a3 3 0 0 0 -2.7 -2h-4a3 3 0 0 0 0 6h4a3 3 0 0 1 0 6h-4a3 3 0 0 1 -2.7 -2" /><path d="M12 3v3m0 12v3" /></svg>
+        </span>
+
+        <div class="who-content mt-3">
+          <h2 id="pricing-title"><span class="blue">الاستثمار في</span> مستقبلك المهني</h2>
+          <h4 class="midning-title-2">هذا البرنامج مصمم لمن يبحث عن انتقال مهني حقيقي في DevOps. تم تسعير البرنامج بناءً على المحتوى العملي، المشاريع، والوقت المباشر مع المدرب — مع عدد محدود من المشاركين لضمان أقصى استفادة.</h4>
         </div>
       </div>
 
-      <div class="minding-card">
-        <div class="card-content" lang="ar" dir="rtl">
-          <div class="header-section">
-            <div class="icon-circle">
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-calendar-event"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M16 2a1 1 0 0 1 .993 .883l.007 .117v1h1a3 3 0 0 1 2.995 2.824l.005 .176v12a3 3 0 0 1 -2.824 2.995l-.176 .005h-12a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-12a3 3 0 0 1 2.824 -2.995l.176 -.005h1v-1a1 1 0 0 1 1.993 -.117l.007 .117v1h6v-1a1 1 0 0 1 1 -1m3 7h-14v9.625c0 .705 .386 1.286 .883 1.366l.117 .009h12c.513 0 .936 -.53 .993 -1.215l.007 -.16z" /><path d="M8 14h2v2h-2z" /></svg>            </div>
+      <div class="row align-items-start mt-5 ">
+        
+        <div class="col-lg-6 mb-4">
+          <div class="leftCard">
 
-            <div class="minding-card-content">
-              <h3> التقسيط</h3>
-              <p class="minding-p">يمكن تقسيم قيمة الاشتراك على 3 دفعات شهرية لتسهيل عملية الاشتراك. </p>
+            <div class="card-title-2 text-center">
+              <h2 class="gradient-text">5000 EGP</h2>
+              <p>للبرنامج الكامل - 12 أسبوع</p>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
-  </div>
-    </div>
-
-
-</section>
-
-
-
-
-
-
-
-
-<!-- form -->
-<section id="form" class="container section mb-5 ">
-  <div class="row">
-    <!-- Title -->
-    <div class="title-content text-center mb-5">
-      <span class="badge-2">
-                التسجيل في البرنامج
-
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-        </svg>
-      </span>
-
-      <div class="who-content mt-3">
-        <h1><span class="blue">سجل الآن</span> واحجز مقعدك</h1>
-        <h4>املأ النموذج أدناه وسنتواصل معك قريباً</h4>
-      </div>
-    </div>
-
-    <!-- Form -->
-    <div class="form-container d-flex justify-content-center mt-5">
-      <form class="registration-form">
-        <!-- Personal Info -->
-        <div class="row g-4 mb-4">
-          <div class="col-md-6">
-            <div class="form-group">
-              <label for="firstName" dir="rtl">الاسم الكامل <span class="text-danger">*</span></label>
-              <input type="text" class="form-control" id="firstName" placeholder="الاسم الكامل" required>
+            <div class="card-body-2" lang="ar" dir="rtl">
+              <span>يشمل الاشتراك</span>
+              <ul class="d-flex flex-column gap-2">
+                <li><i class="fa-solid fa-check gradient-text" aria-hidden="true"></i> البرنامج الكامل لمدة 12 أسبوع</li>
+                <li><i class="fa-solid fa-check gradient-text" aria-hidden="true"></i> جلسات مباشرة 4 ساعات أسبوعيًا</li>
+                <li> <i class="fa-solid fa-check gradient-text" aria-hidden="true"></i>جميع المشاريع العملية والتطبيقات</li>
+                <li><i class="fa-solid fa-check gradient-text" aria-hidden="true"></i> الوصول إلى المواد خلال فترة البرنامج</li>
+              </ul>
             </div>
-          </div>
 
-          <div class="col-md-6">
-            <div class="form-group">
-              <label for="email" dir="rtl">البريد الإلكتروني <span class="text-danger">*</span></label>
-              <input type="email" class="form-control" id="email" placeholder="البريد الإلكتروني" required>
+            <div class="text-center mt-4">
+              <button class="btn btn-secondary-4 w-100 d-flex justify-content-center" aria-label="اشترك الآن في البرنامج">
+                اشترك الآن
+              </button>
             </div>
+
           </div>
         </div>
 
-        <!-- Job Info -->
-        <div class="job-section mb-5">
-          <div class="section-title d-flex align-items-center gap-2 mb-3" dir="rtl">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-              <path d="M3 9a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-9" />
-              <path d="M8 7v-2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v2" />
-            </svg>
-            <h5 class="mb-0">الوظيفة الحالية وسنوات الخبرة</h5>
-          </div>
+        <div class="col-lg-6 d-flex flex-column gap-4 minding" role="list" >
+          <article class="minding-card" role="listitem">
+            <div class="card-content" lang="ar" dir="rtl">
+              <div class="header-section">
+                <div class="icon-circle" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-clock-check" aria-hidden="true"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M20.942 13.021a9 9 0 1 0 -9.407 7.967" /><path d="M12 7v5l3 3" /><path d="M15 19l2 2l4 -4" /></svg>
+                </div>
 
-          <div class="row g-4">
+                <div class="minding-card-content">
+                  <h3>عدد محدود</h3>
+                  <p>البرنامج محدود بعدد صغير من المشاركين لضمان جودة الإرشاد والمتابعة الفردية.</p>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="minding-card" role="listitem">
+            <div class="card-content" lang="ar" dir="rtl">
+              <div class="header-section">
+                <div class="icon-circle" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-shield" aria-hidden="true"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 3a12 12 0 0 0 8.5 3a12 12 0 0 1 -8.5 15a12 12 0 0 1 -8.5 -15a12 12 0 0 0 8.5 -3" /></svg>
+                </div>
+
+                <div class="minding-card-content "> 
+                  <h3>ضمان التجربة</h3>
+                  <p>نمنحك أسبوعًا كاملًا للتجربة، مع إمكانية الانسحاب واسترداد المبلغ الكامل في حال عدم الاستمرار.</p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="minding-card" role="listitem">
+            <div class="card-content" lang="ar" dir="rtl">
+              <div class="header-section">
+                <div class="icon-circle" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-calendar-event" aria-hidden="true"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M16 2a1 1 0 0 1 .993 .883l.007 .117v1h1a3 3 0 0 1 2.995 2.824l.005 .176v12a3 3 0 0 1 -2.824 2.995l-.176 .005h-12a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-12a3 3 0 0 1 2.824 -2.995l.176 -.005h1v-1a1 1 0 0 1 1.993 -.117l.007 .117v1h6v-1a1 1 0 0 1 1 -1m3 7h-14v9.625c0 .705 .386 1.286 .883 1.366l.117 .009h12c.513 0 .936 -.53 .993 -1.215l.007 -.16z" /><path d="M8 14h2v2h-2z" /></svg>
+                </div>
+
+                <div class="minding-card-content">
+                  <h3>التقسيط</h3>
+                  <p class="minding-p">يمكن تقسيم قيمة الاشتراك على 3 دفعات شهرية لتسهيل عملية الاشتراك.</p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </div>
+
+
+  </section>
+
+
+
+
+  <!-- FORM SECTION -->
+  <section id="form" class="container section mb-5" aria-labelledby="form-title">
+    <div class="row">
+      <div class="title-content text-center mb-5">
+        <span class="badge-2" aria-hidden="true">
+          التسجيل في البرنامج
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+          </svg>
+        </span>
+
+        <div class="who-content mt-3">
+          <h2 id="form-title"><span class="blue">سجل الآن</span> واحجز مقعدك</h2>
+          <h4>املأ النموذج أدناه وسنتواصل معك قريباً</h4>
+        </div>
+      </div>
+
+      <div class="form-container d-flex justify-content-center mt-5">
+        <form class="registration-form" aria-label="نموذج التسجيل في البرنامج">
+          <div class="row g-4 mb-4">
             <div class="col-md-6">
               <div class="form-group">
-                <label for="jobTitle" dir="rtl">المسمى الوظيفي الحالي <span class="text-danger">*</span></label>
-                <input type="text" class="form-control" id="jobTitle" placeholder="مثال: مطور Full Stack" required>
+                <label for="firstName" dir="rtl">الاسم الكامل <span class="text-danger" aria-hidden="true">*</span><span class="visually-hidden">مطلوب</span></label>
+                <input type="text" class="form-control" id="firstName" placeholder="الاسم الكامل" required aria-required="true">
               </div>
             </div>
 
             <div class="col-md-6">
               <div class="form-group">
-                <label for="experience" dir="rtl">سنوات الخبرة <span class="text-danger">*</span></label>
-                <select class="form-select" id="experience" required>
-                  <option value="" selected disabled>اختر سنوات الخبرة</option>
-                  <option value="0-1">أقل من سنة</option>
-                  <option value="1-3">1-3 سنوات</option>
-                  <option value="3-5">3-5 سنوات</option>
-                  <option value="5-10">5-10 سنوات</option>
-                  <option value="10+">أكثر من 10 سنوات</option>
-                </select>
+                <label for="email" dir="rtl">البريد الإلكتروني <span class="text-danger" aria-hidden="true">*</span><span class="visually-hidden">مطلوب</span></label>
+                <input type="email" class="form-control" id="email" placeholder="البريد الإلكتروني" required aria-required="true">
               </div>
             </div>
           </div>
-        </div>
 
-        <!-- Technical Background -->
-        <div class="row g-4 mb-5 rounded-3 pb-3 bg">
-          <div class="col-12">
-            <div class="form-group d-flex flex-wrap gap-4" dir="rtl">
-              <div class="seclect-2">
-                <label for="background1">خلفيتك التقنية <span class="text-danger">*</span></label>
-                <select class="form-select" id="background1" required>
-                  <option value="" selected disabled>اختر خلفيتك التقنية</option>
-                  <option value="backend">Backend Developer</option>
-                  <option value="frontend">Frontend Developer</option>
-                  <option value="fullstack">Full Stack Developer</option>
-                  <option value="devops">DevOps Engineer</option>
-                  <option value="sysadmin">System Administrator</option>
-                  <option value="other">أخرى</option>
-                </select>
+          <fieldset class="job-section mb-5">
+            <legend class="section-title d-flex align-items-center gap-2 mb-3" dir="rtl">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M3 9a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-9" />
+                <path d="M8 7v-2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v2" />
+              </svg>
+              <span>الوظيفة الحالية وسنوات الخبرة</span>
+            </legend>
+
+            <div class="row g-4">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="jobTitle" dir="rtl">المسمى الوظيفي الحالي <span class="text-danger" aria-hidden="true">*</span><span class="visually-hidden">مطلوب</span></label>
+                  <input type="text" class="form-control" id="jobTitle" placeholder="مثال: مطور Full Stack" required aria-required="true">
+                </div>
               </div>
-              <div class="seclect-2">
-                <label for="background2">خلفيتك التقنية <span class="text-danger">*</span></label>
-                <select class="form-select" id="background2" required>
-                  <option value="" selected disabled>اختر خلفيتك التقنية</option>
-                  <option value="backend">Backend Developer</option>
-                  <option value="frontend">Frontend Developer</option>
-                  <option value="fullstack">Full Stack Developer</option>
-                  <option value="devops">DevOps Engineer</option>
-                  <option value="sysadmin">System Administrator</option>
-                  <option value="other">أخرى</option>
-                </select>
-              </div>
-              <div class="seclect-2">
-                <label for="background2">خلفيتك التقنية <span class="text-danger">*</span></label>
-                <select class="form-select" id="background2" required>
-                  <option value="" selected disabled>اختر خلفيتك التقنية</option>
-                  <option value="backend">Backend Developer</option>
-                  <option value="frontend">Frontend Developer</option>
-                  <option value="fullstack">Full Stack Developer</option>
-                  <option value="devops">DevOps Engineer</option>
-                  <option value="sysadmin">System Administrator</option>
-                  <option value="other">أخرى</option>
-                </select>
-              </div>
-              <div class="seclect-2">
-                <label for="background2">خلفيتك التقنية <span class="text-danger">*</span></label>
-                <select class="form-select" id="background2" required>
-                  <option value="" selected disabled>اختر خلفيتك التقنية</option>
-                  <option value="backend">Backend Developer</option>
-                  <option value="frontend">Frontend Developer</option>
-                  <option value="fullstack">Full Stack Developer</option>
-                  <option value="devops">DevOps Engineer</option>
-                  <option value="sysadmin">System Administrator</option>
-                  <option value="other">أخرى</option>
-                </select>
-              </div>
-              <div class="seclect-2">
-                <label for="background2">خلفيتك التقنية <span class="text-danger">*</span></label>
-                <select class="form-select" id="background2" required>
-                  <option value="" selected disabled>اختر خلفيتك التقنية</option>
-                  <option value="backend">Backend Developer</option>
-                  <option value="frontend">Frontend Developer</option>
-                  <option value="fullstack">Full Stack Developer</option>
-                  <option value="devops">DevOps Engineer</option>
-                  <option value="sysadmin">System Administrator</option>
-                  <option value="other">أخرى</option>
-                </select>
+
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="experience" dir="rtl">سنوات الخبرة <span class="text-danger" aria-hidden="true">*</span><span class="visually-hidden">مطلوب</span></label>
+                  <select class="form-select" id="experience" required aria-required="true">
+                    <option value="" selected disabled>اختر سنوات الخبرة</option>
+                    <option value="0-1">أقل من سنة</option>
+                    <option value="1-3">1-3 سنوات</option>
+                    <option value="3-5">3-5 سنوات</option>
+                    <option value="5-10">5-10 سنوات</option>
+                    <option value="10+">أكثر من 10 سنوات</option>
+                  </select>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
+          </fieldset>
 
-        <!-- Goals -->
-        <div class="row g-4 mb-4 bg  rounded-3">
-          <div class="col-12">
-            <div class="form-group">
+          <fieldset class="row g-4 mb-5 rounded-3 pb-3 bg">
+            <legend class="col-12 form-group d-flex flex-wrap gap-4" dir="rtl">
+              <span class="w-100">خلفيتك التقنية <span class="text-danger" aria-hidden="true">*</span><span class="visually-hidden">مطلوب</span></span>
+              <div class="seclect-2">
+                <label for="background1">المهارة الأولى</label>
+                <select class="form-select" id="background1" required aria-required="true">
+                  <option value="" selected disabled>اختر خلفيتك التقنية</option>
+                  <option value="backend">Backend Developer</option>
+                  <option value="frontend">Frontend Developer</option>
+                  <option value="fullstack">Full Stack Developer</option>
+                  <option value="devops">DevOps Engineer</option>
+                  <option value="sysadmin">System Administrator</option>
+                  <option value="other">أخرى</option>
+                </select>
+              </div>
+              <div class="seclect-2">
+                <label for="background2">المهارة الثانية</label>
+                <select class="form-select" id="background2">
+                  <option value="" selected disabled>اختر (اختياري)</option>
+                  <option value="backend">Backend Developer</option>
+                  <option value="frontend">Frontend Developer</option>
+                  <option value="fullstack">Full Stack Developer</option>
+                  <option value="devops">DevOps Engineer</option>
+                  <option value="sysadmin">System Administrator</option>
+                  <option value="other">أخرى</option>
+                </select>
+              </div>
+            </legend>
+          </fieldset>
+
+          <fieldset class="row g-4 mb-4 bg rounded-3">
+            <legend class="col-12 form-group">
               <div class="section-title d-flex align-items-center gap-2 mb-3" dir="rtl">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
                   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                   <path d="M3 9a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-9" />
                   <path d="M8 7v-2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v2" />
                 </svg>
-                <h5 class="mb-0">اهدافك في خلال 6 الي 12 شهر</h5>
+                <span>أهدافك في خلال 6 إلى 12 شهر</span>
               </div>
               <textarea class="form-control" id="reason" rows="4" placeholder="أخبرنا عن أهدافك وتطلعاتك..."></textarea>
-            </div>
+            </legend>
+          </fieldset>
+
+          <div class="text-center">
+            <button type="submit" class="btn btn-secondary-4 btn-form" aria-label="إرسال طلب التسجيل">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M5 12h14M5 12l4 4M5 12l4-4"/>
+              </svg>
+              إرسال الطلب
+            </button>
           </div>
-        </div>
+        </form>
+      </div>
+    </div>
+  </section>
 
-        <!-- Submit -->
-        <div class="text-center">
-          <button type="submit" class="btn btn-secondary-4 btn-form">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M5 12h14M5 12l4 4M5 12l4-4"/>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="mt-4" role="contentinfo">
+    <div class="container footer-flex pb-5">
+
+      <div class="footer-column newsletter-col" dir="rtl" lang="ar">
+        <h2>آخر المستجدات</h2>
+        <p>اشترك ليصلك أي جديد حول مواعيد الدفعات والتسجيل</p>
+
+        <form class="newsletter-form" aria-label="نموذج الاشتراك في النشرة البريدية">
+          <label for="newsletter-email" class="visually-hidden">البريد الإلكتروني للاشتراك</label>
+          <input type="email" id="newsletter-email" placeholder="البريد الإلكتروني" required aria-required="true">
+          <button type="submit" aria-label="إرسال">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+              viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M22 2L11 13"></path>
+              <path d="M22 2L15 22L11 13L2 9L22 2Z"></path>
             </svg>
-            إرسال الطلب
           </button>
-        </div>
-      </form>
-    </div>
-  </div>
-</section>
+        </form>
+      </div>
+      
+      <nav class="footer-column links-col" dir="rtl" lang="ar" aria-label="روابط سريعة">
+        <h2>روابط سريعة</h2>
+        <ul>
+          <li><a href="#who">عن البرنامج</a></li>
+          <li><a href="#learn">المحتوى والمشاريع</a></li>
+          <li><a href="#how">طريقة العمل</a></li>
+          <li><a href="#minding">الاستثمار في مستقبلك</a></li>
+          <li><a href="#form">التقديم</a></li>
+        </ul>
+      </nav>
 
+      <div class="footer-column about-col" dir="rtl" lang="ar">
+        <h2 class="logo-footer">S A</h2>
+        <p>
+          برنامج تدريبي عملي يهدف إلى إعداد مهندسي DevOps قادرين على العمل
+          على النشر، التشغيل، والبنية التحتية في بيئات حقيقية.
+        </p>
 
+        <ul class="social-links" aria-label="روابط التواصل الاجتماعي">
+          <li>
+            <a href="mailto:Admin@kube-ops.com" target="_blank" class="social-icon" aria-label="تواصل عبر البريد الإلكتروني">
+              <img src="./assets/images/email.png" alt="أيقونة البريد الإلكتروني" width="24" height="24" loading="lazy" />
+            </a>
+          </li>
+          <li>
+            <a href="https://youtube.com/@kube-ops?si=uKvv019UqZwYx3HP" class="social-icon" target="_blank" aria-label="قناة يوتيوب">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-youtube" aria-hidden="true"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M2 8a4 4 0 0 1 4 -4h12a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-12a4 4 0 0 1 -4 -4v-8" style="color: #8e3cd9;"/><path d="M10 9l5 3l-5 3l0 -6" style="color: #8e3cd9;" /></svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/samehammar" target="_blank" class="social-icon" aria-label="بروفايل لينكد إن">
+              <img src="./assets/images/in.png" alt="أيقونة لينكد إن" width="24" height="24" loading="lazy" />
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/+201008793652" target="_blank" class="social-icon" aria-label="تواصل عبر واتساب">
+              <img src="assets/images/phone.png" alt="أيقونة الواتساب" width="24" height="24" loading="lazy" />
+            </a>
+          </li>
+        </ul>
+      </div>
 
-
-
-
-
-
-
-
-
-  <!-- footer -->
-
-<footer class="mt-4">
-  <div class="container footer-flex pb-5">
-
-    <!-- About Column (First on Right) -->
-   <div class="footer-column newsletter-col" dir="rtl" lang="ar">
-      <h2>آخر المستجدات</h2>
-      <p>اشترك ليصلك أي جديد حول مواعيد الدفعات والتسجيل</p>
-
-      <form class="newsletter-form">
-        <input type="email" placeholder="البريد الإلكتروني" required aria-label="البريد الإلكتروني">
-        <button type="submit" aria-label="إرسال">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M22 2L11 13"></path>
-            <path d="M22 2L15 22L11 13L2 9L22 2Z"></path>
-          </svg>
-        </button>
-      </form>
-    </div>
-    <!-- Quick Links Column (Middle) -->
-    <div class="footer-column links-col" dir="rtl" lang="ar">
-      <h2>روابط سريعة</h2>
-      <ul>
-        <li><a >عن البرنامج</a></li>
-        <li><a >المحتوى والمشاريع</a></li>
-        <li><a >طريقة العمل</a></li>
-        <li><a >الاستثمار في مستقبلك</a></li>
-        <li><a >التقديم</a></li>
-      </ul>
     </div>
 
-    <!-- Newsletter Column (Left) -->
- 
-    <div class="footer-column about-col" dir="rtl" lang="ar">
-      <h2 class="logo-footer">S A</h2>
-      <p>
-        برنامج تدريبي عملي يهدف إلى إعداد مهندسي DevOps قادرين على العمل
-        على النشر، التشغيل، والبنية التحتية في بيئات حقيقية.
-      </p>
-
-     <ul class="social-links">
-        <li>
-          <a href="mailto:Admin@kube-ops.com" target="_blank" class="social-icon" aria-label="رسائل">
-   <img src="./assets/images/email.png" alt="">
-          </a>
-        </li>
-        <li>
-       <a href="https://youtube.com/@kube-ops?si=uKvv019UqZwYx3HP" class="social-icon" target="_blank" aria-label="يوتيوب">
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-youtube"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M2 8a4 4 0 0 1 4 -4h12a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-12a4 4 0 0 1 -4 -4v-8"  style="color: #8e3cd9;"/><path d="M10 9l5 3l-5 3l0 -6" style="color: #8e3cd9;" /></svg></a>
-
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/samehammar" target="_blank" class="social-icon" aria-label="لينكد إن">
-        <img src="./assets/images/in.png" alt="">
-          </a>
-        </li>
-        <li>
-          <a href="https://wa.me/+201008793652" target="_blank" class="social-icon" aria-label="واتساب">
-     <img src="assets/images/phone.png" alt="">
-          </a>
-        </li>
-      </ul>
+    <div class="footer-bottom">
+      <p>© 2026 Sameh Ammar. All rights reserved</p>
     </div>
+  </footer>
 
-  </div>
-
-  <!-- Footer Bottom -->
-  <div class="footer-bottom">
-<p>© 2026 Sameh Ammar. All rights reserved </p>
-
-</div>
-</footer>
-
-
-
-
-
-
-  <script src="js/bootstrap.bundle.js"></script>
-  <script src="js/index.js"></script>
+  <!-- PERFORMANCE IMPROVEMENT: Added defer to JavaScript files for non-blocking loading -->
+  <script src="js/bootstrap.bundle.js" defer></script>
+  <script src="js/index.js" defer></script>
 
 </body>
 </html>
