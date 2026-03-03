@@ -2127,3 +2127,149 @@ html {
     scroll-behavior: auto;
   }
 }
+
+
+
+
+
+/* ==================== PAYMENTS SECTION ==================== */
+
+.payments {
+  padding: 80px 0;
+  background: #f9fafb;
+}
+
+.payments .title-sec {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.payments .title-sec h2 {
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--text-primary);
+}
+
+.payments-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.payment-item {
+  flex: 1 1 200px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 20px;
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.payment-item::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 20px;
+  padding: 1.5px;
+  background: linear-gradient(to right, hsl(289, 65%, 64%), hsl(226, 78%, 67%));
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.payment-item:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 32px rgba(142, 60, 217, 0.12);
+  border-color: transparent;
+}
+
+.payment-item:hover::before {
+  opacity: 1;
+}
+
+.img-paument {
+  width: 120px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.wrapper-block {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+
+.wrapper-block h5 {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.wrapper-block a {
+  font-size: 14px;
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color 0.2s ease;
+  direction: ltr;
+}
+
+.wrapper-block a:hover {
+  color: var(--primary-color);
+}
+
+/* ==================== RESPONSIVE ==================== */
+
+@media (max-width: 992px) {
+  .payments-list {
+    gap: 20px;
+  }
+
+  .payment-item {
+    flex: 1 1 calc(50% - 20px);
+  }
+}
+
+@media (max-width: 576px) {
+  .payments-list {
+    gap: 16px;
+  }
+
+  .payment-item {
+    flex: 1 1 calc(50% - 16px);
+    padding: 24px 16px;
+  }
+
+  .img-paument {
+    width: 90px;
+    height: 60px;
+  }
+
+  .wrapper-block h5 {
+    font-size: 14px;
+  }
+
+  .wrapper-block a {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 360px) {
+  .payment-item {
+    flex: 1 1 100%;
+  }
+}
