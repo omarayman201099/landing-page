@@ -180,9 +180,68 @@ const paymentItems = document.querySelectorAll('.payment-item');
 paymentItems.forEach(item => {
   item.addEventListener('click', () => {
     const isActive = item.classList.contains('active');
-
     paymentItems.forEach(i => i.classList.remove('active'));
-
     if (!isActive) item.classList.add('active');
+  });
+});
+
+// Copy functionality
+document.querySelectorAll('.copy-btn').forEach(btn => {
+  btn.addEventListener('click', (e) => {
+    e.stopPropagation(); // متعملش toggle للكارد
+
+    const text = btn.dataset.copy;
+    navigator.clipboard.writeText(text).then(() => {
+      btn.classList.add('copied');
+      setTimeout(() => btn.classList.remove('copied'), 2000);
+    });
+  });
+});
+
+
+// Toast
+function showToast(msg = 'تم النسخ!') {
+  let toast = document.getElementById('copy-toast');
+  if (!toast) {
+    toast = document.createElement('div');
+    toast.id = 'copy-toast';
+    toast.style.cssText = `
+      position: fixed;
+      bottom: 32px;
+      left: 50%;
+      transform: translateX(-50%) translateY(20px);
+      background: #1f2937;
+      color: #fff;
+      padding: 12px 24px;
+      border-radius: 12px;
+      font-size: 15px;
+      font-weight: 600;
+      z-index: 9999;
+      opacity: 0;
+      transition: all 0.3s ease;
+      pointer-events: none;
+    `;
+    document.body.appendChild(toast);
+  }
+  toast.textContent = msg;
+  setTimeout(() => {
+    toast.style.opacity = '1';
+    toast.style.transform = 'translateX(-50%) translateY(0)';
+  }, 10);
+  setTimeout(() => {
+    toast.style.opacity = '0';
+    toast.style.transform = 'translateX(-50%) translateY(20px)';
+  }, 2200);
+}
+
+document.querySelectorAll('.copy-btn').forEach(btn => {
+  btn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const text = btn.dataset.copy;
+    navigator.clipboard.writeText(text).then(() => {
+      btn.classList.add('copied');
+      showToast('✅ تم النسخ!');
+      setTimeout(() => btn.classList.remove('copied'), 2000);
+    });
   });
 });
