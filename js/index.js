@@ -170,3 +170,19 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
 });
+
+
+
+// click payment section functaion
+
+const paymentItems = document.querySelectorAll('.payment-item');
+
+paymentItems.forEach(item => {
+  item.addEventListener('click', () => {
+    const isActive = item.classList.contains('active');
+
+    paymentItems.forEach(i => i.classList.remove('active'));
+
+    if (!isActive) item.classList.add('active');
+  });
+});
